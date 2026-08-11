@@ -1,0 +1,1635 @@
+<!doctype html >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      class="">
+<head>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    window._currentDevice = 'desktop';
+    window.Parameters = window.Parameters || {
+        AjaxContainer: 'div.dmBody',
+        WrappingContainer: 'div.dmOuter',
+        HomeUrl: 'http://www.transect.de/',
+        AccountUUID: 'ec67f6f7a96244188e27982dd3aee63d',
+        SystemID: '1AND1_EU_PROD',
+        SiteAlias: '95ee33f6d4e04c8bae6d20897b80f304',
+        SiteId: '326344',
+        SiteType: atob('RFVEQU9ORQ=='),
+        PublicationDate: 'Mon Jan 24 10:19:17 UTC 2022',
+        ExternalUid: '7b9e3d8b-1a16-46eb-9b0a-adff063d8592',
+        IsSiteMultilingual: false,
+        InitialPostAlias: '',
+        InitialDynamicItem: '',
+        InitialPageAlias: 'team/dr-henryk-alff',
+        InitialPageUuid: 'c44d05d5e2644b8ba2157d84248d10f2',
+        InitialEncodedPageAlias: 'dGVhbS9kci1oZW5yeWstYWxmZg==',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: false,
+        AllowAjax: false,
+        AfterAjaxCommand: null,
+        HomeLinkText: 'Back To Home',
+        UseGalleryModule: false,
+        CurrentThemeName: 'Layout Theme',
+        ThemeVersion: '4625',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID: null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        IsBfs: true,
+        StorePageAlias: 'null',
+        StorePagesUrls: 'e30=',
+        IsNewStore: 'false',
+        StorePath: '',
+        StoreId: 'null',
+        StoreVersion: 0,
+        StoreBaseUrl: '',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        NotificationSubDomain: 'transect',
+        HasCustomDomain: true,
+        showCookieNotification: false,
+        cookiesNotificationMarkup: 'null',
+        translatedPageUrl: '',
+        isFastMigrationSite: false,
+        sidebarPosition: 'NA',
+        currentLanguage: 'en',
+        NavItems: 'W3sidGl0bGUiOiJQcm9qZWN0IiwiYWxpYXMiOiJob21lIiwicGF0aCI6Ii8iLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119LHsidGl0bGUiOiJEZXNpZ24iLCJhbGlhcyI6IiNEZXNpZ24iLCJwYXRoIjoiLyNEZXNpZ24iLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119LHsidGl0bGUiOiJHb2FscyIsImFsaWFzIjoiI0dvYWxzIiwicGF0aCI6Ii8jR29hbHMiLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119LHsidGl0bGUiOiJUZWFtIiwiYWxpYXMiOiIjVGVhbSIsInBhdGgiOiIvI1RlYW0iLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W3sidGl0bGUiOiJBa3NhbmEgWmFraXJvdmEiLCJhbGlhcyI6InRlYW0vYWtzYW5hLXpha2lyb3ZhIiwicGF0aCI6Ii90ZWFtL2Frc2FuYS16YWtpcm92YSIsImluTmF2aWdhdGlvbiI6dHJ1ZSwic3ViTmF2IjpbXX0seyJ0aXRsZSI6IkNocmlzdG9waCBSYWFiIiwiYWxpYXMiOiJ0ZWFtL2NocmlzdG9waC1yYWFiIiwicGF0aCI6Ii90ZWFtL2NocmlzdG9waC1yYWFiIiwiaW5OYXZpZ2F0aW9uIjp0cnVlLCJzdWJOYXYiOltdfSx7InRpdGxlIjoiTWljaGFlbCBTcGllcyIsImFsaWFzIjoidGVhbS9kci1taWNoYWVsLXNwaWVzIiwicGF0aCI6Ii90ZWFtL2RyLW1pY2hhZWwtc3BpZXMiLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119LHsidGl0bGUiOiJNZWh3aXNoIFp1YmVyaSIsImFsaWFzIjoidGVhbS9tZWh3aXNoLXp1YmVyaSIsInBhdGgiOiIvdGVhbS9tZWh3aXNoLXp1YmVyaSIsImluTmF2aWdhdGlvbiI6dHJ1ZSwic3ViTmF2IjpbXX0seyJ0aXRsZSI6IkhlbnJ5ayBBbGZmIiwiYWxpYXMiOiJ0ZWFtL2RyLWhlbnJ5ay1hbGZmIiwicGF0aCI6Ii90ZWFtL2RyLWhlbnJ5ay1hbGZmIiwiaW5OYXZpZ2F0aW9uIjp0cnVlLCJzdWJOYXYiOltdfSx7InRpdGxlIjoiTWFkbGVuIE3DpGhsaXMiLCJhbGlhcyI6InRlYW0vbWFkbGVuLW1hZWhsaXMiLCJwYXRoIjoiL3RlYW0vbWFkbGVuLW1hZWhsaXMiLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119XX0seyJ0aXRsZSI6IlBhcnRuZXJzIiwiYWxpYXMiOiIjUGFydG5lcnNBIiwicGF0aCI6Ii8jUGFydG5lcnNBIiwiaW5OYXZpZ2F0aW9uIjp0cnVlLCJzdWJOYXYiOltdfSx7InRpdGxlIjoiY29udGFjdCIsImFsaWFzIjoiI2NvbnRhY3QiLCJwYXRoIjoiLyNjb250YWN0IiwiaW5OYXZpZ2F0aW9uIjp0cnVlLCJzdWJOYXYiOltdfSx7InRpdGxlIjoiTkVXUyIsImFsaWFzIjoibmV3cyIsInBhdGgiOiIvbmV3cyIsImluTmF2aWdhdGlvbiI6dHJ1ZSwic3ViTmF2IjpbXX0seyJ0aXRsZSI6IlByaXZhY3kgUG9saWN5IiwiYWxpYXMiOiJwcml2YWN5LXBvbGljeSIsInBhdGgiOiIvcHJpdmFjeS1wb2xpY3kiLCJpbk5hdmlnYXRpb24iOmZhbHNlLCJzdWJOYXYiOltdfSx7InRpdGxlIjoiZ29hbHMiLCJhbGlhcyI6IiNnb2FscyIsInBhdGgiOiIvI2dvYWxzIiwiaW5OYXZpZ2F0aW9uIjp0cnVlLCJzdWJOYXYiOltdfSx7InRpdGxlIjoicHJvamVjdCIsImFsaWFzIjoiI3Byb2plY3QiLCJwYXRoIjoiLyNwcm9qZWN0IiwiaW5OYXZpZ2F0aW9uIjp0cnVlLCJzdWJOYXYiOltdfSx7InRpdGxlIjoiZGVzaWduIiwiYWxpYXMiOiIjZGVzaWduIiwicGF0aCI6Ii8jZGVzaWduIiwiaW5OYXZpZ2F0aW9uIjp0cnVlLCJzdWJOYXYiOltdfSx7InRpdGxlIjoidGVhbSIsImFsaWFzIjoiI3RlYW0iLCJwYXRoIjoiLyN0ZWFtIiwiaW5OYXZpZ2F0aW9uIjp0cnVlLCJzdWJOYXYiOltdfSx7InRpdGxlIjoicGFydG5lcnMiLCJhbGlhcyI6IiNwYXJ0bmVyc0IiLCJwYXRoIjoiLyNwYXJ0bmVyc0IiLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119LHsidGl0bGUiOiJjb250YWN0IiwiYWxpYXMiOiIjY29udGFjdCIsInBhdGgiOiIvI2NvbnRhY3QiLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119LHsidGl0bGUiOiJDb250YWN0IiwiYWxpYXMiOiIjQ29udGFjdCIsInBhdGgiOiIvI0NvbnRhY3QiLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119LHsidGl0bGUiOiJEZXNpZ24iLCJhbGlhcyI6IiNEZXNpZ24iLCJwYXRoIjoiLyNEZXNpZ24iLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119LHsidGl0bGUiOiJQdWJsaWNhdGlvbnMiLCJhbGlhcyI6IiNQdWJsaWNhdGlvbnMiLCJwYXRoIjoiLyNQdWJsaWNhdGlvbnMiLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119LHsidGl0bGUiOiJwdWJsaWNhdGlvbnMiLCJhbGlhcyI6IiNwdWJsaWNhdGlvbnMiLCJwYXRoIjoiLyNwdWJsaWNhdGlvbnMiLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119XQ==',
+        errors: {
+            general: 'There was an error connecting to the page.<br/> Make sure you are not offline.',
+            password: 'Incorrect name/password combination',
+            tryAgain: 'Try again'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: 4,
+            NavbarLiveHomePage: 'http://www.transect.de/',
+            BlockContainerSelector: '.dmBody',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        hasCustomCode: false,
+        planID: '2002',
+        customTemplateId: 'null',
+        siteTemplateId: 'null',
+        productId: 'DM_DIRECT',
+        disableTracking: false,
+        pageType: 'FROM_SCRATCH',
+        isRuntimeServer: true,
+        siteCacheKey: '1643019624810_95ee33f6d4e04c8bae6d20897b80f304',
+        siteInfo: null,
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 6;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+<!-- Inject secured cdn script -->
+
+
+<!-- ========= Meta Tags ========= -->
+<!-- PWA settings -->
+<script>
+    function toHash(str) {
+        var hash = 5381, i = str.length;
+        while (i) {
+            hash = hash * 33 ^ str.charCodeAt(--i)
+        }
+        return hash >>> 0
+    }
+</script>
+<script>
+    (function(global) {
+    //const cacheKey = global.cacheKey;
+    const isOffline = 'onLine' in navigator && navigator.onLine === false;
+    const hasServiceWorkerSupport = 'serviceWorker' in navigator;
+    if (isOffline) {
+        console.log('offline mode');
+    }
+    if (!hasServiceWorkerSupport) {
+        console.log('service worker is not supported');
+    }
+    if (hasServiceWorkerSupport && !isOffline) {
+        window.addEventListener('load', function() {
+            const serviceWorkerPath = '/runtime-service-worker.js?v=2';
+            navigator.serviceWorker
+                .register(serviceWorkerPath, { scope: './' })
+                .then(
+                    function(registration) {
+                        // Registration was successful
+                        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                    },
+                    function(err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed: ', err);
+                    }
+                )
+                .catch(function(err) {
+                    console.log(err);
+                });
+        });
+
+        // helper function to refresh the page
+        var refreshPage = (function() {
+            var refreshing;
+            return function() {
+                if (refreshing) return;
+                // prevent multiple refreshes
+                var refreshkey = 'refreshed' + location.href;
+                var prevRefresh = localStorage.getItem(refreshkey);
+                if (prevRefresh) {
+                    localStorage.removeItem(refreshkey);
+                    if (Date.now() - prevRefresh < 30000) {
+                        return; // dont go into a refresh loop
+                    }
+                }
+                refreshing = true;
+                localStorage.setItem(refreshkey, Date.now());
+                console.log('refereshing page');
+                window.location.reload();
+            };
+        })();
+
+        function messageServiceWorker(data) {
+            return new Promise(function(resolve, reject) {
+                if (navigator.serviceWorker.controller) {
+                    var worker = navigator.serviceWorker.controller;
+                    var messageChannel = new MessageChannel();
+                    messageChannel.port1.onmessage = replyHandler;
+                    worker.postMessage(data, [messageChannel.port2]);
+                    function replyHandler(event) {
+                        resolve(event.data);
+                    }
+                } else {
+                    resolve();
+                }
+            });
+        }
+    }
+})(window);
+</script>
+<!-- Add manifest -->
+<!-- End PWA settings -->
+
+
+<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+<meta charset="utf-8">
+
+<link rel="canonical" href="https://www.transect.de/team/dr-henryk-alff">
+
+<meta id="view" name="viewport"
+      content=", initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover"/>
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!--Add favorites icons-->
+
+<link rel="apple-touch-icon" href="https://cdn.website-editor.net/s/95ee33f6d4e04c8bae6d20897b80f304/dms3rep/multi/TRANSECT-symbol1+-+Kopie.png?Expires=1647561834&Signature=bW07SnSZ7jXnt3qixUEKhnGiPi6idzLImb804c93hMKipEnEJULRJKhIwXSX2KQElCIO8vdugATAXSCCY2di1HMyyBKqpLwZ78nL6B0Ub8LCLkWrU65c8IlDIkHuAG6TGfqfC7pwAIynCWsJDkum5NiZQHu8So3wga0rYf1jL5gUBymINEwTL3lJoQP0I-XwmPqRbsztTHx11t4pBcMDTWNRJT-0Nbu48E2HKLfK8vSJDa7Q9iyeizLaCVFBqoGpCOlyHqODB-1HE0lqKxYaJ6C8Wg67T4fC4Dqp~1-brjtAJByzbYJ~y4Dm-8NgCTb5mBXFGK1QPOhqPgGdPzIAzg__&Key-Pair-Id=K2NXBXLF010TJW"/>
+
+<link rel="icon" type="image/x-icon" href="https://cdn.website-editor.net/95ee33f6d4e04c8bae6d20897b80f304/site_favicon_16_1574174895208.ico"/>
+
+<!-- End favorite icons -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preconnect" href="https://le-cdn.website-editor.net/" crossorigin />
+
+
+
+
+
+<!-- render the required CSS and JS in the head section -->
+<script>
+    window.SystemID = '1AND1_EU_PROD';
+
+    if(!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function() {
+            },
+            getCurrentDeviceType: function() {
+                return window._currentDevice;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+
+    function loadCSS(link) {
+        try {
+            var urlParams = new URLSearchParams(window.location.search);
+            var noCSS = !!urlParams.get('nocss');
+            var cssTimeout = urlParams.get('cssTimeout') || 0;
+
+            if (noCSS) {
+                return;
+            }
+            requestIdleCallback(function () {
+                window.setTimeout(function () {
+                    link.onload = null;
+                    link.rel = 'stylesheet';
+                    link.type = 'text/css'
+                }, parseInt(cssTimeout, 10));
+            });
+        } catch (e) {/* Never fail - this is just a tool for measurements */}
+    }
+
+</script>
+<script>
+(function(n){"use strict";if(!n.l){n.l=function(){}}var o=loadCSS.t={};o.o=function(){var l;try{l=n.document.createElement("link").relList.supports("preload")}catch(e){l=false}return function(){return l}}();o.i=function(e){var l=e.media||"all";function enableStylesheet(){if(e.addEventListener){e.removeEventListener("load",enableStylesheet)}else if(e.attachEvent){e.detachEvent("onload",enableStylesheet)}e.setAttribute("onload",null);e.media=l}if(e.addEventListener){e.addEventListener("load",enableStylesheet)}else if(e.attachEvent){e.attachEvent("onload",enableStylesheet)}setTimeout(function(){e.rel="stylesheet";e.media="only x"});setTimeout(enableStylesheet,3e3)};o.s=function(){if(o.o()){return}var e=n.document.getElementsByTagName("link");for(var l=0;l<e.length;l++){var t=e[l];if(t.rel==="preload"&&t.getAttribute("as")==="style"&&!t.getAttribute("data-loadcss")){t.setAttribute("data-loadcss",true);o.i(t)}}};if(!o.o()){o.s();var e=n.setInterval(o.s,500);if(n.addEventListener){n.addEventListener("load",function(){o.s();n.clearInterval(e)})}else if(n.attachEvent){n.attachEvent("onload",function(){o.s();n.clearInterval(e)})}}if(typeof exports!=="undefined"){exports.l=loadCSS}else{n.l=loadCSS}})(typeof global!=="undefined"?global:this);
+</script>
+<style id="forceCssIncludes">
+    /* This file is auto-generated from a `scss` file with the same name */
+
+.videobgwrapper{overflow:hidden;position:absolute;z-index:0;width:100%;height:100%;top:0;left:0;pointer-events:none;border-radius:inherit}.videobgframe{position:absolute;width:101%;height:100%;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);object-fit:fill}#dm video.videobgframe{margin:0}.dmMobileBody .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:80vh}.dmDesktopBody .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}#dm [data-show-on-page-only]{display:none!important}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    function loadCSS(link) {
+        try {
+            var urlParams = new URLSearchParams(window.location.search);
+            var noCSS = !!urlParams.get('nocss');
+            var cssTimeout = urlParams.get('cssTimeout') || 0;
+
+            if (noCSS) {
+                return;
+            }
+            requestIdleCallback(function () {
+                window.setTimeout(function () {
+                    link.onload = null;
+                    link.rel = 'stylesheet';
+                    link.type = 'text/css'
+                }, parseInt(cssTimeout, 10));
+            });
+        } catch (e) {/* Never fail - this is just a tool for measurements */}
+    }
+</script>
+
+<link type="text/css" rel="stylesheet" href="https://cdn.website-editor.net/fonts/css?family=Montserrat:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Source+Sans+Pro:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Karla:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&amp;subset=latin-ext&amp;display=swap"  />
+
+
+
+
+<!-- RT CSS Include d-css-runtime-desktop-one-package-new-->
+<link rel="stylesheet" type="text/css" href="https://static-cdn.website-editor.net/mnlt/production/2307/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-new.min.css" />
+
+<!-- End of RT CSS Include -->
+
+
+
+    
+       <link type="text/css" rel="stylesheet" href="https://cdn.website-editor.net/WIDGET_CSS/production_2307/3fc8438956ace82ed00484b5d5228934.css" id="widgetCSS" />
+    
+
+
+<!-- Support `img` size attributes -->
+<style>img[width][height] {height: auto;}</style>
+
+<!-- Support showing sticky element on page only -->
+<style>
+    body[data-page-alias="team/dr-henryk-alff"] #dm [data-show-on-page-only="team/dr-henryk-alff"]{
+        display: block !important;
+    }
+</style>
+
+<!-- This is populated in Ajax navigation -->
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+
+
+
+
+<!-- Site CSS -->
+<link type="text/css" rel="stylesheet" href="https://cdn.website-editor.net/s/95ee33f6d4e04c8bae6d20897b80f304/files/95ee33f6d4e04c8bae6d20897b80f304_1.min.css?v=678&Expires=1647561834&Signature=i22AcnEuuFc8kYyeTPGz6sPsk8sliUuPgAjG7cCy2r4ToywprFrYYyNxmYPZRsV10HT5ggpwEHzrFcoSkKyP7-zUDGXago~msG~4rdvhOVIVpBU33YFp5VpmF1twx4jIwjJI-exAtoABMjWrCceyg9uwjXDSp6uAsd9iOT-llcbMkesD1B2LZv44HKl5I-fyq6maxuiwX18Ljz8hJ-IcRBi8fTWqOI44~KY3Q~cKqfNPRYEnhFvzgid0N40KEF66iV4ta5~V4QSpCFy5GuPcotrdkNAKhyN9AXD5s-w~wKxkk4ST9OrSw0FHczouEgWaJMy5yT9AJZHpBHDNOPR~Yg__&Key-Pair-Id=K2NXBXLF010TJW" id="siteGlobalCss" />
+
+
+<!-- additional css file per platform -->
+<link type="text/css" rel="stylesheet" href="/_dm/s/rt/css/oneUndOne/1and1-runtime.css?version=2022-02-15T13_56_00" />
+
+
+<style id="customWidgetStyle" type="text/css">
+    
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+<style id="additionalGlobalCss" type="text/css">
+</style>
+
+<style id="pagestyle" type="text/css">
+    *#dm *.dmBody div.u_1229960696:before{
+background-color:rgba(0,0,0,1) !important;
+opacity:0.25 !important}
+*#dm *.dmBody div.u_1229960696.before{
+background-color:rgba(0,0,0,1) !important;
+opacity:0.25 !important}
+*#dm *.dmBody div.u_1473738055 hr{
+color:rgba(255,255,255,1) !important;
+background:none !important;
+height:0 !important;
+background-color:transparent !important;
+background-size:initial !important;
+min-height:0 !important;
+border-color:currentColor !important;
+border-width:1px !important;
+border-top-style:solid !important;
+border-top-width:2px !important}
+*#dm *.dmBody *.u_1229960696:before{
+opacity:0.5 !important;
+background-color:rgb(0,0,0) !important}
+*#dm *.dmBody *.u_1229960696.before{
+opacity:0.5 !important;
+background-color:rgb(0,0,0) !important}
+*.dmFooterContainer{
+display:none !important}
+*#dm *.dmBody div.u_1397476128{
+line-height:200% !important;
+color:rgba(255,255,255,1) !important;
+font-family:Helvetica !important}
+*#dm *.dmBody div.u_1657124415:before{
+background-color:rgba(0,0,0,1) !important;
+opacity:0.25 !important}
+*#dm *.dmBody div.u_1657124415.before{
+background-color:rgba(0,0,0,1) !important;
+opacity:0.25 !important}
+*#dm *.dmBody div.u_1589996736 hr{
+color:rgba(255,255,255,1) !important;
+background:none !important;
+height:0 !important;
+background-color:transparent !important;
+background-size:initial !important;
+min-height:0 !important;
+border-color:currentColor !important;
+border-width:1px !important;
+border-top-style:solid !important;
+border-top-width:2px !important}
+*#dm *.dmBody *.u_1657124415:before{
+opacity:0.5 !important;
+background-color:rgb(0,0,0) !important}
+*#dm *.dmBody *.u_1657124415.before{
+opacity:0.5 !important;
+background-color:rgb(0,0,0) !important}
+*#dm *.dmBody div.u_1443613385{
+line-height:200% !important;
+color:rgba(255,255,255,1) !important;
+font-family:Helvetica !important}
+*#dm *.dmBody div.u_1657124415{
+background-repeat:no-repeat !important;
+background-image:url(https://le-cdn.website-editor.net/s/95ee33f6d4e04c8bae6d20897b80f304/dms3rep/multi/opt/IMG_6352+%281%29-2880w.jpg?Expires=1647561834&Signature=ay-V1fITC8foqKvq~PJewnIuQVkTm5L8pFWf8fR-2Y1TPNOrqtw-5FL6yK8sEHxg0CxtHQ2CmlDKwHH4T8lWefMfbq2aW8jEqRHGFfLH6uEl0vUB4WZI4ynSu0SOOmvBGX4cBqzFDWuxHISAUxJ3n~WmOFpRn8POh1Eo7y0M3~dMM6XFeJqwuioxTW5Eh64elgIAVrRhBGQAADHRlo6YHQyKtjxfiGxGvP9oBsFTfcykLPdrP4My9aqPoCzWcTMt39dmzjWaRI5VGNiNYiFK5i4R6mBHx~z89D7z54LFaFrDe0-oyYI0P51tENyR5LteLe4hkZFnlSxEKTcQIEZK3g__&Key-Pair-Id=K2NXBXLF010TJW) !important}
+*#dm *.dmBody div.u_1165781223{
+background-repeat:no-repeat !important;
+background-image:url(https://le-cdn.website-editor.net/s/95ee33f6d4e04c8bae6d20897b80f304/dms3rep/multi/opt/IMG_6352+%281%29-2880w.jpg?Expires=1647561834&Signature=ay-V1fITC8foqKvq~PJewnIuQVkTm5L8pFWf8fR-2Y1TPNOrqtw-5FL6yK8sEHxg0CxtHQ2CmlDKwHH4T8lWefMfbq2aW8jEqRHGFfLH6uEl0vUB4WZI4ynSu0SOOmvBGX4cBqzFDWuxHISAUxJ3n~WmOFpRn8POh1Eo7y0M3~dMM6XFeJqwuioxTW5Eh64elgIAVrRhBGQAADHRlo6YHQyKtjxfiGxGvP9oBsFTfcykLPdrP4My9aqPoCzWcTMt39dmzjWaRI5VGNiNYiFK5i4R6mBHx~z89D7z54LFaFrDe0-oyYI0P51tENyR5LteLe4hkZFnlSxEKTcQIEZK3g__&Key-Pair-Id=K2NXBXLF010TJW) !important;
+background-size:cover !important}
+*#dm *.dmBody div.u_1179095943{
+background-color:rgba(0,0,0,0) !important}
+*#dm *.dmBody div.u_1229960696{
+background-repeat:no-repeat !important;
+background-image:none !important;
+background-color:rgba(0,0,0,1) !important}
+*#dm *.dmBody div.u_1763937242{
+background-color:rgba(0,0,0,0.03) !important}
+*.u_1161343693{
+background-image:none !important;
+background-color:rgba(0,0,0,0) !important;
+background-position:0 0 !important;
+background-size:auto !important;
+background-repeat:repeat !important;
+padding-top:0 !important;
+padding-bottom:0 !important;
+padding-right:10.2031px !important;
+padding-left:10.2031px !important;
+margin:0 !important;
+text-align:center !important;
+color:rgb(33,34,38) !important}
+*.u_1536621293{
+background-image:none !important;
+background-color:rgb(33,34,38) !important;
+background-position:0 0 !important;
+background-size:auto !important;
+background-repeat:repeat !important;
+padding-top:85px !important;
+padding-bottom:85px !important;
+padding-right:0 !important;
+padding-left:0 !important;
+margin:0 !important;
+text-align:center !important;
+color:rgb(33,34,38) !important}
+*.u_1308293500{
+background-image:none !important;
+background-color:rgba(0,0,0,0) !important;
+background-position:0 0 !important;
+background-size:auto !important;
+background-repeat:repeat !important;
+padding-top:0 !important;
+padding-bottom:0 !important;
+padding-right:20.4219px !important;
+padding-left:0 !important;
+margin:0 !important;
+text-align:center !important;
+color:rgb(33,34,38) !important}
+*.u_1249956812{
+background-image:none !important;
+background-color:rgba(0,0,0,0) !important;
+background-position:0 0 !important;
+background-size:auto !important;
+background-repeat:repeat !important;
+padding-top:0 !important;
+padding-bottom:0 !important;
+padding-right:10.2031px !important;
+padding-left:10.2031px !important;
+margin:0 !important;
+text-align:center !important;
+color:rgb(33,34,38) !important}
+*#dm *.dmBody h5.u_1058955380{
+line-height:initial !important}
+*#dm *.dmBody div.u_1536621293{
+background-color:rgba(33,34,38,1) !important;
+border-style:solid !important;
+border-width:0 !important}
+</style>
+
+<style id="pagestyleDevice" type="text/css">
+    *#dm *.dmBody h3.u_1074737189{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+max-width:calc(100% - 0px) !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:left !important;
+display:block !important}
+*#dm *.dmBody div.u_1473738055{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:40px !important;
+position:relative !important;
+height:auto !important;
+padding-top:7px !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:calc(100% - 460px) !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:center !important}
+*#dm *.dmBody div.u_1473738055 hr{
+margin-left:0 !important}
+*#dm *.dmBody div.u_1082207684{
+padding-top:0 !important;
+margin-left:155px !important}
+*#dm *.dmBody h2.u_1074737189{
+margin-bottom:0 !important;
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:calc(100% - -2px) !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:0 !important;
+margin-left:-2px !important;
+max-width:100% !important;
+margin-top:0 !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:left !important}
+*#dm *.dmBody div.u_1397476128{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:807.986px !important;
+position:relative !important;
+height:auto !important;
+padding-top:82px !important;
+padding-left:40px !important;
+padding-bottom:2px !important;
+max-width:100% !important;
+padding-right:40px !important;
+min-width:0 !important;
+text-align:left !important;
+display:block !important;
+font-size:18px !important;
+margin-right:0 !important;
+margin-left:0 !important;
+margin-top:0 !important;
+margin-bottom:0 !important}
+*#dm *.dmBody div.u_1229960696{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:auto !important;
+position:relative !important;
+height:auto !important;
+padding-top:40px !important;
+padding-left:300px !important;
+padding-bottom:130px !important;
+max-width:none !important;
+padding-right:132px !important;
+min-width:0 !important;
+text-align:center !important;
+background-attachment:initial !important;
+background-size:contain !important;
+background-repeat:no-repeat !important;
+background-position:0 50% !important;
+margin-left:0 !important}
+*#dm *.dmBody div.u_1830163516{
+display:block !important;
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:100% !important;
+margin-top:8px !important;
+margin-bottom:8px !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:center !important}
+*#dm *.dmBody h3.u_1237725994{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+max-width:calc(100% - 0px) !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:left !important;
+display:block !important}
+*#dm *.dmBody div.u_1589996736{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:40px !important;
+position:relative !important;
+height:auto !important;
+padding-top:7px !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:calc(100% - 460px) !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:center !important}
+*#dm *.dmBody div.u_1589996736 hr{
+margin-left:0 !important}
+*#dm *.dmBody div.u_1082677630{
+padding-top:0 !important;
+margin-left:155px !important}
+*#dm *.dmBody h2.u_1237725994{
+margin-bottom:0 !important;
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:calc(100% - -2px) !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:0 !important;
+margin-left:-2px !important;
+max-width:100% !important;
+margin-top:0 !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:left !important}
+*#dm *.dmBody div.u_1443613385{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:807.986px !important;
+position:relative !important;
+height:auto !important;
+padding-top:82px !important;
+padding-left:40px !important;
+padding-bottom:2px !important;
+max-width:100% !important;
+padding-right:40px !important;
+min-width:0 !important;
+text-align:left !important;
+display:block !important;
+font-size:18px !important;
+margin-right:0 !important;
+margin-left:0 !important;
+margin-top:0 !important;
+margin-bottom:0 !important}
+*#dm *.dmBody div.u_1657124415{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:auto !important;
+position:relative !important;
+height:auto !important;
+padding-top:40px !important;
+padding-left:300px !important;
+padding-bottom:130px !important;
+max-width:none !important;
+padding-right:132px !important;
+min-width:0 !important;
+text-align:center !important;
+background-attachment:initial !important;
+background-size:contain !important;
+background-repeat:no-repeat !important;
+background-position:0 50% !important}
+*#dm *.dmBody div.u_1504647675{
+display:block !important;
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:100% !important;
+margin-top:8px !important;
+margin-bottom:8px !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:center !important}
+*#dm *.dmBody div.u_1763937242{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:auto !important;
+position:relative !important;
+height:auto !important;
+padding-top:30px !important;
+padding-left:40px !important;
+padding-bottom:200px !important;
+max-width:none !important;
+padding-right:40px !important;
+min-width:0 !important;
+text-align:center !important}
+*#dm *.dmBody h4.u_1058955380{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:167px !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+max-width:calc(100% - 28px) !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:center !important;
+display:block !important;
+margin-right:auto !important;
+margin-left:auto !important;
+margin-top:8px !important;
+margin-bottom:8px !important}
+*#dm *.dmBody div.u_1308293500{
+padding-top:0 !important;
+padding-right:0 !important;
+padding-bottom:0 !important;
+margin-right:0 !important;
+padding-left:179px !important;
+margin-top:0 !important}
+*#dm *.dmBody div.u_1161343693{
+padding-left:39px !important;
+padding-top:13px !important;
+padding-right:20px !important;
+margin-right:100px !important}
+*#dm *.dmBody div.u_1249956812{
+padding-left:0 !important;
+padding-right:0 !important;
+padding-top:0 !important;
+margin-left:0 !important;
+margin-right:0 !important}
+*#dm *.dmBody div.u_1625626145{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:234.75px !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:0 !important;
+margin-left:0 !important;
+max-width:100% !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+min-width:0 !important}
+*#dm *.dmBody div.u_1843850508{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:191px !important;
+position:relative !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+margin-right:0 !important;
+margin-left:0 !important;
+max-width:100% !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:center !important;
+height:auto !important}
+*#dm *.dmBody div.u_1536621293{
+padding-top:50px !important;
+padding-bottom:50px !important;
+padding-left:0 !important;
+padding-right:0 !important;
+width:auto !important}
+*#dm *.dmBody h4.u_1058955380{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:167px !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+max-width:calc(100% - 28px) !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:center !important;
+display:block !important;
+margin-right:auto !important;
+margin-left:auto !important;
+margin-top:8px !important;
+margin-bottom:8px !important}
+*#dm *.dmBody div.u_1308293500{
+padding-top:0 !important;
+padding-right:0 !important;
+padding-bottom:0 !important;
+margin-right:0 !important;
+padding-left:179px !important;
+margin-top:0 !important}
+*#dm *.dmBody div.u_1161343693{
+padding-left:39px !important;
+padding-top:13px !important;
+padding-right:20px !important;
+margin-right:100px !important}
+*#dm *.dmBody div.u_1249956812{
+padding-left:0 !important;
+padding-right:0 !important;
+padding-top:0 !important;
+margin-left:0 !important;
+margin-right:0 !important}
+*#dm *.dmBody div.u_1625626145{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:234.75px !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:0 !important;
+margin-left:0 !important;
+max-width:100% !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+min-width:0 !important}
+*#dm *.dmBody div.u_1843850508{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:191px !important;
+position:relative !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+margin-right:0 !important;
+margin-left:0 !important;
+max-width:100% !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:center !important;
+height:auto !important}
+*#dm *.dmBody div.u_1536621293{
+padding-top:50px !important;
+padding-bottom:50px !important;
+padding-left:0 !important;
+padding-right:0 !important;
+width:auto !important}
+</style>
+
+<!-- Flex Sections CSS -->
+
+
+
+
+
+    <style id="globalFontSizeStyle" type="text/css">
+        .font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-22, .size-22, .size-22 > font { font-size: 22px !important; }.font-size-17, .size-17, .size-17 > font { font-size: 17px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-17, .size-17, .size-17 > font { font-size: 17px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-17, .size-17, .size-17 > font { font-size: 17px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-17, .size-17, .size-17 > font { font-size: 17px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-17, .size-17, .size-17 > font { font-size: 17px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-17, .size-17, .size-17 > font { font-size: 17px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-17, .size-17, .size-17 > font { font-size: 17px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-17, .size-17, .size-17 > font { font-size: 17px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-17, .size-17, .size-17 > font { font-size: 17px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-17, .size-17, .size-17 > font { font-size: 17px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-13, .size-13, .size-13 > font { font-size: 13px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-11, .size-11, .size-11 > font { font-size: 11px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-11, .size-11, .size-11 > font { font-size: 11px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-11, .size-11, .size-11 > font { font-size: 11px !important; }.font-size-11, .size-11, .size-11 > font { font-size: 11px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-11, .size-11, .size-11 > font { font-size: 11px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-11, .size-11, .size-11 > font { font-size: 11px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-11, .size-11, .size-11 > font { font-size: 11px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }
+    </style>
+    <style id="pageFontSizeStyle" type="text/css">
+    </style>
+
+
+
+
+
+
+<style id="hideAnimFix">
+  .dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
+    visibility: hidden;
+  }
+  .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
+    visibility: hidden !important;
+  }
+</style>
+
+
+
+
+<!-- End render the required css and JS in the head section -->
+
+
+
+
+
+
+
+  <link type="application/rss+xml" rel="alternate" href="https://www.transect.de//feed/rss2"/>
+  <link type="application/atom+xml" rel="alternate" href="https://www.transect.de//feed/atom"/>
+  <title>
+    
+    TRANSECT
+  
+  </title>
+  <meta name="keywords" content="TRANSECT"/>
+  <meta name="description" content="TRANSECT"/>
+
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="TRANSECT"/>
+  <meta name="twitter:description" content="TRANSECT"/>
+  <meta name="twitter:image" content="https://le-cdn.website-editor.net/s/95ee33f6d4e04c8bae6d20897b80f304/dms3rep/multi/opt/TRANSECT-Logo_brighter_150dpi-1920w.png?Expires=1647561834&amp;Signature=UqNn4aS-SejRwqnrT88SmhT6T88Ro1R1csk3fwZUGXN28gU2QXRV1ayRxaXc0XUm~BZ5iTSFWo4p0Tb5m6X8HTql8l9fTtaGNNzKbVziVQt0jR~hKbtvFvewbpjr7dHdBDRbQ3h92Q9ASWHZHOIsWuqD1HupSM3jO591iD6Iudpy-~hB2IeDaHrQCnzj8XTc9pqspoBGSY3j0YzpIsMrykc4n4e200Gr1Hhf~w8XMyiI0350Xq-CoTsKADP6DwgGiTCOV26gUtxNAitIKROUTSK419yqNxqH9NTWF98LVmO98Lh1~Nk2BepjZhIItU1-zmklOUVNLMqLUBBQXcfRyQ__&amp;Key-Pair-Id=K2NXBXLF010TJW"/>
+  <meta property="og:description" content="TRANSECT"/>
+  <meta property="og:title" content="TRANSECT"/>
+  <meta property="og:image" content="https://le-cdn.website-editor.net/s/95ee33f6d4e04c8bae6d20897b80f304/dms3rep/multi/opt/TRANSECT-Logo_brighter_150dpi-1920w.png?Expires=1647561834&amp;Signature=UqNn4aS-SejRwqnrT88SmhT6T88Ro1R1csk3fwZUGXN28gU2QXRV1ayRxaXc0XUm~BZ5iTSFWo4p0Tb5m6X8HTql8l9fTtaGNNzKbVziVQt0jR~hKbtvFvewbpjr7dHdBDRbQ3h92Q9ASWHZHOIsWuqD1HupSM3jO591iD6Iudpy-~hB2IeDaHrQCnzj8XTc9pqspoBGSY3j0YzpIsMrykc4n4e200Gr1Hhf~w8XMyiI0350Xq-CoTsKADP6DwgGiTCOV26gUtxNAitIKROUTSK419yqNxqH9NTWF98LVmO98Lh1~Nk2BepjZhIItU1-zmklOUVNLMqLUBBQXcfRyQ__&amp;Key-Pair-Id=K2NXBXLF010TJW"/>
+
+
+
+
+<!-- SYS- MUFORDFfRVVfUFJPRA== -->
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot" data-page-alias="team/dr-henryk-alff"  class="supportsFontIcons supportsFontIcons dmRoot dmDesktopBody fix-mobile-scrolling dmResellerSite dmLargeBody " style="padding:0;margin:0;"
+            >
+
+
+    
+
+<!-- ========= Site Content ========= -->
+<div id="dm" class='dmwr'>
+    
+    <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+         <div dmwrapped="true" id="1209077614"> <div dmtemplateid="StandardLayoutMultiD" class="standardHeaderLayout dm-bfs dm-layout-sec hasAnimations hasStickyHeader dmPageBody d-page-1530098301 dmFreeHeader" id="dm-outer-wrapper" data-page-class="1530098301" data-buttonstyle="THICK_BORDER_ROUND" data-soch="true" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <div> <div id="iscrollBody"> <div id="site_content"> <div class="dmHeaderContainer fHeader d-header-wrapper"> <div id="hcontainer" class="u_hcontainer dmHeader p_hfcontainer" freeheader="true"> <div dm:templateorder="85" class="dmHeaderResp dmHeaderStack noSwitch" id="1709005236"> <div class="u_1571063569 dmRespRow dmHeaderContent freeHeaderRow1" id="1571063569"> <div class="dmRespColsWrapper clearfix" id="1618005341"> <div class="u_1639054215 dmRespCol small-12 large-2 medium-2 empty-column" id="1639054215"></div> 
+ <div class="u_1713311601 dmRespCol small-12 large-10 medium-10" id="1713311601"> <nav class="u_1284501632 effect-background main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_7" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1284501632" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" navigation_id="" data-logo-src="https://cdn.website-editor.net/95ee33f6d4e04c8bae6d20897b80f304/dms3rep/multi/desktop/logo_empty-871ebb7f.png" data-nav-structure="HORIZONTAL" wr="false" icon="true" surround="false"> <ul class="unifiednav__container  " data-auto="navigation-pages"> <li class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Project
+        " data-auto="page-text-style">Project<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/#Team" class="unifiednav__item    unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Team
+        " data-auto="page-text-style">Team<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/team/aksana-zakirova" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Aksana Zakirova
+          " data-auto="page-text-style">Aksana Zakirova<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/team/christoph-raab" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Christoph Raab
+          " data-auto="page-text-style">Christoph Raab<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/team/dr-michael-spies" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Michael Spies
+          " data-auto="page-text-style">Michael Spies<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/team/mehwish-zuberi" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Mehwish Zuberi
+          " data-auto="page-text-style">Mehwish Zuberi<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/team/dr-henryk-alff" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Henryk Alff
+          " data-auto="page-text-style">Henryk Alff<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/team/madlen-maehlis" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Madlen Mählis
+          " data-auto="page-text-style">Madlen M&auml;hlis<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/#Publications" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Publications
+        " data-auto="page-text-style">Publications<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/#PartnersA" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Partners
+        " data-auto="page-text-style">Partners<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/#Contact" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Contact
+        " data-auto="page-text-style">Contact<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/news" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         NEWS
+        " data-auto="page-text-style">NEWS<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="stickyHeaderSpacer" id="stickyHeaderSpacer" data-new="true"></div> 
+ <div class="dmRespRow dmRespRowStable dmRespRowNoPadding dmPageTitleRow "> <div class="dmRespColsWrapper"> <div class="large-12 dmRespCol"> <div id="innerBar" class="innerBar lineInnerBar dmDisplay_None"> <div class="titleLine display_None"><hr/></div> 
+<!-- Page title is hidden in css for new responsive sites. It is left here only so we don't break old sites. Don't copy it to new layouts --> <div id="pageTitleText"> <div class="innerPageTitle">Henryk Alff</div> 
+</div> 
+ <div class="titleLine display_None"><hr/></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div dmwrapped="true" id="1209077614" class="dmBody u_dmStyle_template_team/dr-henryk-alff"> <div id="allWrapper" class="allWrapper"> <div id="dm_content" class="dmContent"> <div dm:templateorder="1" class="dmDefaultRespTmpl" id="1530098301"> <div class="innerPageTmplBox dmDefaultPage  dmRespRowsWrapper" id="1170642362"> <div class="u_1657124415 dmRespRow hasBackgroundOverlay dmSectionNoParallax hide-for-small" style="text-align: center;" id="1657124415"> <div class="dmRespColsWrapper" id="1665316898"> <div class="u_1082677630 dmRespCol small-12 medium-12 large-12" id="1082677630" data-anim-desktop="fadeInUp"> <h2 class="u_1237725994 dmNewParagraph" id="1237725994" style="transition: none 0s ease 0s; display: block;" data-element-type="paragraph"><span></span><div style="text-align: center;"><font color="#ffffff">Dr Henryk Alff</font></div></h2> <div class="u_1589996736 dmDividerWrapper clearfix" data-element-type="dDividerId" id="1589996736" layout="divider-style-1" data-widget-version="2"><hr class="dmDivider" style="min-height: 2px; border:none; background:grey" id="1919553102"/></div> 
+ <div class="dmNewParagraph u_1504647675" data-element-type="paragraph" id="1504647675"><font class="lh-1 font-size-20" style="color: rgb(255, 255, 255);"><i><font class="lh-1">&nbsp;&nbsp; Postdoctoral Researcher</font></i></font><br/></div> <div class="u_1443613385 dmNewParagraph" id="1443613385" data-anim-desktop="fadeInUp"><div style=";text-align: center; ;"></div><div><span style="font-weight: 400; font-size: 24px;" class="font-size-22 lh-1"><div style="text-align: center;"><font face="Karla">Trained in human geography and area studies (Slavic and Central Asian studies), Henryk draws on 18 years of experience in development and transformation research in different regional contexts. Based on long-term fieldwork, his work in the TRANSECT project scrutinises the various political, socio-economic and ecological transitions in the agricultural sector of South-Eastern Kazakhstan.</font></div></span></div></div></div> 
+</div> 
+</div> 
+ <div class="u_1763937242 dmRespRow" style="text-align: center;" id="1763937242"> <div class="dmRespColsWrapper" id="1695492905"> <div class="dmRespCol small-12 medium-12 large-12" id="1755650689"> <span id="1563068483"></span> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1679955792"><p class="m-size-17 size-24"><span class="font-size-24 m-font-size-17" style="display: initial;">Research Interests</span></p></div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1226473908" style="transition: opacity 1s ease-in-out 0s;"><p><span style="display: initial;"><br/></span></p> <ul class="defaultList"><li class="m-size-13 size-18"><span class="m-font-size-13 font-size-18" style="display: initial;"><span class="m-font-size-13 font-size-18" style="display: initial;">Migration and mobility research</span> 
+</span></li><li class="m-size-13 size-18"><span class="m-font-size-13 font-size-18" style="display: initial;"><span class="m-font-size-13 font-size-18" style="display: initial;">Geographical development research</span> 
+</span></li><li class="m-size-13 size-18"><span class="m-font-size-13 font-size-18" style="display: initial;"><span class="m-font-size-13 font-size-18" style="display: initial;">Border &amp; boundary studies</span> 
+</span></li><li class="m-size-13 size-18"><span class="m-font-size-13 font-size-18" style="display: initial;"><span class="m-font-size-13 font-size-18" style="display: initial;">(Post-) area studies</span> 
+</span></li><li class="m-size-13 size-18"><span class="m-font-size-13 font-size-18" style="display: initial;"><span class="m-font-size-13 font-size-18" style="display: initial;">Translocality and positionality</span> 
+</span></li><li class="m-size-13 size-18"><span class="m-font-size-13 font-size-18" style="display: initial;"><span class="m-font-size-13 font-size-18" style="display: initial;">Critical spatial theory</span> 
+</span></li><li class="m-size-13 size-18"><span class="m-font-size-13 font-size-18" style="display: initial;"><span class="m-font-size-13 font-size-18" style="display: initial;">Actor-based and ethnographical approaches</span> 
+</span></li><li class="m-size-13 size-18"><span class="m-font-size-13 font-size-18" style="display: initial;">Qualitative social research</span></li></ul> 
+<p><span style="display: initial;"><br/></span></p><p><span style="display: initial;"><br/></span></p><p><span style="display: initial;"><br/></span></p></div> 
+ <div class="dmDividerWrapper clearfix" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1886885525"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1524728678"/></div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1728626060"><p class="m-size-17 size-24"><span class="font-size-24 m-font-size-17" style="display: initial;">Curriculum Vitae</span></p></div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1301163027"><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;"><span class="font-size-18 m-font-size-13" style="display: initial;">Since 2019</span> 
+</span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial; font-weight: bold;">Postdoctoral Researcher</span><span class="font-size-18 m-font-size-13" style="display: initial;">, TRANSECT research group at HNE Eberswalde</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;"><span class="font-size-18 m-font-size-13" style="display: initial;">2017-2019</span> 
+</span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial; font-weight: bold;">Postdoctoral Researcher</span><span class="font-size-18 m-font-size-13" style="display: initial;">, Leibniz Centre for Tropical Marine Research (ZMT) in Bremen focusing on interactions between Chinese distant water fisheries and local artisanal fisheries along the West African Atlantic</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;"><span class="font-size-18 m-font-size-13" style="display: initial;">2016</span> 
+</span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial; font-weight: bold;">Research Fellow</span><span class="font-size-18 m-font-size-13" style="display: initial;">, ira.urban at the Leibniz Institute for Regional Geography (IfL) in Leipzig</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;"><span class="font-size-18 m-font-size-13" style="display: initial;">2011-2016</span> 
+</span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial; font-weight: bold;">Postdoctoral Researcher</span><span class="font-size-18 m-font-size-13" style="display: initial;"> <span class="font-size-18 m-font-size-13" style="display: initial;">within the BMBF-funded competence network Crossroads Asia at the Centre for Development Studies (ZELF) of Freie Universit&auml;t Berlin, focusing on the transformation of small-scale trade across the former Sino-Soviet border</span></span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;"><span class="font-size-18 m-font-size-13" style="display: initial;">2008-2017</span> 
+</span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial; font-weight: bold;"><span class="font-size-18 m-font-size-13" style="display: initial; font-weight: bold;">Co-Editor</span> 
+</span><span class="font-size-18 m-font-size-13" style="display: initial;">of the online journal &sbquo;Zentralasien-Analysen&lsquo; of the German Society for Eastern European Research (DGO)</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;"><span class="font-size-18 m-font-size-13" style="display: initial;">2008-2010</span> 
+</span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial; font-weight: bold;">Doctoral Researcher</span><span class="font-size-18 m-font-size-13" style="display: initial;"> <span class="font-size-18 m-font-size-13" style="display: initial;">at the University of Potsdam focusing on the role of transnational social networks of Mongolia&rsquo;s Kazakhs in post-Soviet migration and integration processes</span></span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;"><span class="font-size-18 m-font-size-13" style="display: initial;">2001-2008</span> 
+</span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial; font-weight: bold;"><span class="font-size-18 m-font-size-13" style="display: initial; font-weight: bold;">M.A. Human Geography, Slavic and Central Asian Studies</span> 
+</span><span class="font-size-18 m-font-size-13" style="display: initial;">at the University of Potsdam, Humboldt University Berlin, the Kazakh National University Almaty and the Pedagogical University Dushanbe</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p><span style="display: initial;"><br/></span></p><p><span style="display: initial;"><br/></span></p></div> 
+ <div class="dmDividerWrapper clearfix" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1653002277"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1732276369"/></div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1461953352"><p class="m-size-17 size-24"><span class="font-size-24 m-font-size-17" style="display: initial;">Field Research</span></p></div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1121927762"><p><br/></p><p class="size-18 m-size-14"><span class="font-size-18 m-font-size-14" style="display: initial;">2021</span></p><p><span class="font-size-18 m-font-size-14" style="display: initial;">&nbsp;</span></p><p class="size-18 m-size-14"><span class="font-size-18 m-font-size-14" style="display: initial;">2,5 months of fieldwork on Soviet heritage in agriculture, cropping changes and irrigation water issues in Southeastern Kazakhstan</span></p><p><span class="font-size-18 m-font-size-14" style="display: initial;"><br/></span></p><p class="size-18 m-size-14"><span class="font-size-18 m-font-size-14" style="display: initial;">2019</span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">1 month of explorative fieldwork on post-Soviet agricultural transformations in Panfilov District, Almaty Region, Kazakhstan</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">2018</span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">1 month on interactions between Chinese industrial fisheries and local artisanal fisheries in Senegal, Mauritania and Ghana (PADDLE)</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">2018</span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">1 month on climate change-induced mobilities/migration in mariculture/scallop farming along the Peruvian Pacific (Core Funding)</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">2011-2014</span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">6 months on transformed mobility and exchange processes in crossborder trade between China and Central Asia (Almaty and Zharkent, Kazakhstan/Bishkek, Kyrgyzstan/Guangzhou, China)</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">2006-2009</span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">12 months on the migration and integration processes of Kazakhs from Mongolia (Almaty and Astana, Kazakhstan/Bayan-Ulgiy, Mongolia)</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">2002</span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">2 months on the Georgian-Abkhaz reconciliation process (Georgia)</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p><span style="display: initial;"><br/></span></p><p><span style="display: initial;"><br/></span></p></div> 
+ <div class="dmDividerWrapper clearfix" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1703741532"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1499963241"/></div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1077601606"><p class="m-size-17 size-24"><span class="m-font-size-17 font-size-24" style="display: initial;">Membership</span></p></div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1153457772"><p><span style="display: initial;" class="font-size-18 m-font-size-13"><br/></span></p> <ul class="defaultList"><li class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Association of Geographers at German-speaking Universities and Research Centres (VGDH)</span></li><li class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">American Association of Geographers (AAG)</span></li><li class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Board Member of the Asian Borderlands Research Network (ABRN)</span></li><li class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Member of the Working Group 'Land-Sea Interactions' of the COST Action 'Ocean Governance'</span></li><li class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Central Eurasian Studies Society (CESS)</span></li><li class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Central Eurasian Scholars and Media Initiative (CESMI)</span></li><li class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Speaker of the Geographic Studies Group at the German Society for Eastern European Research (DGO)</span></li></ul> 
+<p><span style="display: initial;" class="font-size-18 m-font-size-13"><br/></span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p><span style="display: initial;"><br/></span></p></div> 
+ <div class="dmDividerWrapper clearfix" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1694669547"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1456812867"/></div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1940761912"><p class="m-size-17 size-24"><span class="m-font-size-17 font-size-24" style="display: initial;">Publications</span></p></div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1210220304"><p><span style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Peer-reviewed Journals</span></p><p><span style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="m-font-size-13 font-size-18" style="display: initial;">Alff, H., &amp; Spies, M. (2020). &bdquo;Pfadabh&auml;ngigkeiten in der Bio&ouml;konomie &uuml;berwinden? Landwirtschaftliche Intensivierungsprozesse aus sozial-&ouml;kologischer Perspektive.&ldquo; PERIPHERIE 159/160, 334-359. <br/></span><a href="https://doi.org/10.3224/peripherie.v40i3-4.06" runtime_url="https://doi.org/10.3224/peripherie.v40i3-4.06" type="url" class="m-font-size-14 font-size-18" style="display: initial;">https://doi.org/</a><a href="https://doi.org/10.3224/peripherie.v40i3-4.06" runtime_url="https://doi.org/10.3224/peripherie.v40i3-4.06" type="url" class="font-size-18 m-font-size-13" style="display: initial;">10.3224/peripherie.v40i3-4.06</a></p><p><span style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2020): &quot;Negotiating coastal infrastructures: An evolutionary governance theory (EGT) approach to Chinese high-modernist development along the Indian Ocean.&quot; In: Marine Policy 112, February 2020, 103545.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Morales-Mu&ntilde;oz, H&eacute;ctor; Jha, Srijna; Bonatti, Michelle; Alff, Henryk; Kurtenbach, Sabine and Sieber, Stefan (2020): &quot;Exploring Connections&mdash;Environmental Change, Food Security and Violence as Drivers of Migration. A Critical Review of Research.&quot; In: Sustainability. July 2020.</span><span single-space="true" class="font-size-18 m-font-size-14" style="display: initial;"> <span class="font-size-18 m-font-size-14" style="display: initial;"></span> 
+</span><a href="/" runtime_url="/" type="page" class="font-size-18 m-font-size-14" style="display: initial;"><br/></a><a href="/site/95ee33f6d4e04c8bae6d20897b80f304/?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true&dm_device=desktop&preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true&dm_device=desktop" runtime_url="/site/95ee33f6d4e04c8bae6d20897b80f304/?preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true&dm_device=desktop&preview=true&nee=true&showOriginal=true&dm_checkSync=1&dm_try_mode=true&dm_device=desktop" type="page" class="font-size-18 m-font-size-14" style="display: initial;">https://doi.org/10.3390/su12145702.</a></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Spies, Michael &amp; Henryk Alff (2020): &quot;Assemblages &amp; complex adaptive systems: A conceptual crossroads for integrative research?&quot; In: Geography Compass 14 (10): e12534.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;"><span class="font-size-18 m-font-size-13" style="display: initial;">Kluger, Lotta; Alff, Henryk; Alfaro-C&oacute;rdova, Eliana &amp; Joanna Alfaro (2020): &quot;On the move: the role of mobility and migration as a coping strategy for resource users after abrupt environmental disturbance &ndash; the empirical example of the Coastal El Ni&ntilde;o 2017.&quot; In: Global Environmental Change 63: 102095.</span> 
+</span><a href="https://doi.org/10.1016/j.gloenvcha.2020.102095" runtime_url="https://doi.org/10.1016/j.gloenvcha.2020.102095" type="url" class="font-size-18 m-font-size-14" style="display: initial;">https://doi.org/10.1016/j.gloenvcha.2020.102095</a></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2020). &quot;Belts and roads every- and nowhere: conceptualizing infrastructural corridorization in the Indian Ocean&quot;. In: Environment &amp; Planning C: Politics and Space. Special issue on &sbquo;Politics and spaces of China's Belt and Road Initiative.&lsquo; <br/></span><a href="https://doi.org/10.1177/2399654420911410 " runtime_url="https://doi.org/10.1177/2399654420911410 " type="url" class="font-size-18 m-font-size-13" style="display: initial;">https://doi.org/10.1177/2399654420911410</a><span class="font-size-18 m-font-size-13" style="display: initial;"><span class="font-size-18 m-font-size-13" style="display: initial;">&nbsp; <br/>E-Copy:</span> 
+</span><a href="https://journals.sagepub.com/eprint/T3DFVZXFMZUPRHJUGGX9/full" runtime_url="https://journals.sagepub.com/eprint/T3DFVZXFMZUPRHJUGGX9/full" type="url" class="font-size-18 m-font-size-13" style="display: initial;">https://journals.sagepub.com/eprint/T3DFVZXFMZUPRHJUGGX9/full</a></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk and Andreas Benz (2019). &quot;The Multidimensionality of Space: An analytical framework for the empirical investigation of the production of place.&quot; In: Erdkunde, vol. 73, no. 2, pp. 111-125.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2017). &quot;Geopolitics and inter-actor relations: reflections on China&rsquo;s rise in Asia.&quot; In: Critical Asian Studies, vol. 49, no. 3, pp. 465-71.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (ed.) (2016). &quot;Beyond Silkroadism: Contextualising Social Interaction across/along Xinjiang&rsquo;s Borders.&quot; Special section of Central Asian Survey, vol. 35, no. 3.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2016). &ldquo;Introduction - Beyond Silkroadism: Contextualizing Social Interaction along Xinjiang&rsquo;s Borders.&rdquo; In: Alff, Henryk (ed.): Beyond Silkroadism: Contextualizing Social Interaction along Xinjiang's Borders. Special section of Central Asian Survey, vol. 35, no. 3, pp. 327-33.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2016). &ldquo;Getting Stuck within Flows: Limited Interaction and Peripheralisation at the Kazakhstan-China Border.&rdquo; In: Alff, Henryk (ed.): Beyond Silkroadism: Contextualizing Social Interaction along Xinjiang&rsquo;s Borders. Special section of Central Asian Survey, vol. 35, no. 3, pp. 369-86.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2016). &ldquo;Flowing Goods, Hardening Borders? China&rsquo;s Commercial Expansion into Kyrgyzstan Re-examined.&rdquo; In: Yeh, E. (ed.): The Geoeconomics and Geopolitics of Chinese Development in Asia. Special issue of Eurasian Geography and Economics, vol. 57, no. 3, pp. 433-56.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2015). &ldquo;Profiteers or Moral Entrepreneurs?: Bazaars, Traders and Development Discourses in Almaty, Kazakhstan.&rdquo; In: International Development Planning Review, vol. 37, no. 3, pp. 249-267.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk; Benz, Andreas and Matthias Schmidt (eds.)(2014). &ldquo;Mobilities in Asian Contexts.&rdquo; Special Issue of Internationales Asienforum/International Quarterly for Asian Studies, vol. 45, no. 1-2.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk; Benz, Andreas and Matthias Schmidt (2014). &ldquo;Mobilities in Asian Contexts.&rdquo; In: Internationales Asienforum/International Quarterly for Asian Studies, vol. 45, no. 1-2, pp. 7-23.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2013). &ldquo;Renegotiating Integration: Dual Citizenship and the Mobilisation of Social Networks of Mongolia&rsquo;s Kazakhs.&rdquo; In: Inner Asia, vol. 15, no. 1, pp. 101-119.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk and Matthias Schmidt (2011). &bdquo;Seidenstra&szlig;e 2.0? Handel und Mobilit&auml;t im Grenzraum Kasachstan-Kirgisistan-Xinjiang.&ldquo; In: Osteuropa, Jg. 61, Heft 11, S. 63-76.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Books</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Schmidt, Matthias; Steenberg Rune; Spies Michael and Henryk Alff (eds.) (2021): &ldquo;Beyond Post-Soviet: Layered Legacies and Transformations in Central Asia&rdquo; (Geographica Augustana 33). Augsburg.</span></p><p><span style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk and Andreas Benz (eds.) (2014). &ldquo;Tracing Connections: Explorations of Spaces and Places in Asian Contexts.&rdquo; Berlin: Wissenschaftlicher Verlag.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2012). &bdquo;Zwischen Geburtsort und Land der Vorv&auml;ter: Die Rolle von sozialen Netzwerken von Kasachen aus der Mongolei im postsowjetischen Migrations- und Inkorporationsprozess&quot; (Dissertation, Universit&auml;t Potsdam). Berlin: LIT.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2012). &quot;Tughan zher men atazhurt arasynda: Qazaqstandagy transulttyq migraciya zh&auml;ne &auml;leumettik zheliler&quot; (dt.: Zwischen Geburtsort und Land der Vorv&auml;ter. Transnationale Migration und soziale Netzwerke in Kasachstan=kasachische &Uuml;bersetzung der Dissertationsschrift). Almaty: Friedrich-Ebert-Stiftung.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk and Wulf Lapins (2009). &quot;Oralmany &ndash; ėtničeskie kazachi v poiskach identičnosti: Aspekty integracii v sovremennoe kazachstanskoe ob&scaron;čestvo.&quot; (Oralman &ndash; ethnic Kazakhs in search of identity: Aspects of integration into the society of Kazakhstan.) Almaty: Friedrich-Ebert-Stiftung.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Book chapter</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk; Schmidt, Matthias; Spies, Michael and Rune Steenberg (2021): &ldquo;Layered legacies &ndash; An introduction&rdquo; In: Schmidt, Matthias; Steenberg Rune; Spies Michael and Henryk Alff (eds.): &ldquo;Beyond Post-Soviet: Layered Legacies and Transformations in Central Asia&rdquo; (Geographica Augustana 33). Augsburg. pp. 4-6.</span></p><p><span style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk and Anna-Katharina Hornidge (2019): &bdquo;Making a Living from Everyday Contradictions: Water Management and Cross-border Trade in Post-Soviet Central Asia.&ldquo; In: Lossau, Julia, Schmidt-Br&uuml;cken, Daniel and Ingo Warnke (eds.): Spaces of Dissension: Towards a New Perspective on Contradiction. Wiesbaden: Springer VS. pp. 193-214.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk and Anna-Katharina Hornidge (2019): &quot;&lsquo;Transformation&rsquo; in the Study of IDS: Across Disciplines, Knowledge Hierarchies and Oceanic Spaces.&quot; In: Baud, Isa; Basile, Elisabetta, Kontinen, Tiina and Susanne von Itter (eds.): Building development studies for the new millennium. Basingstoke: Palgrave MacMillan. pp. 141-161.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2018). &ldquo;A Sense of Multiple Belonging? Translocal Relations and Narratives of Change within a Dungan Community.&rdquo; In: Stephan-Emmrich, Manja and Philipp Schr&ouml;der (eds.): Mobilities, Boundaries, and Travelling Ideas: Rethinking Translocality Beyond Central Asia and the Caucasus. Cambridge: OpenBook Publishers. pp. 177-201.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2018). &ldquo;Making connectivity work: Exploring crossborder livelihoods between Kazakhstan, Kyrgyzstan and China.&rdquo; In: Horstmann, Alexander; Saxer, Martin and Alessandro Rippa (eds.): The Routledge Handbook of Asian Borderlands. London: Routledge.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2017). &quot;Flowing Goods, Hardening Borders? China&rsquo;s Commercial Expansion into Kyrgyzstan Re-examined.&quot; In: Yeh, Emily T. (ed.): The Geoeconomics and Geopolitics of Chinese Development and Investment in Asia. London: Routledge.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2017). &ldquo;Red Lines for Uncivilised Trade? Fixity, mobility and position on Almaty&rsquo;s changing bazaars.&rdquo; In: Mielke, Katja and Anna-Katharina Hornidge (eds.): &ldquo;Crossroads Studies: Mobilities, Immobilities and the Issue of Positionality for Rethinking Area Studies.&rdquo; Basingstoke: Palgrave. pp. 121-39.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2017). &ldquo;Trading for Change: Bazaars and Social Transformation in the Borderlands of Kazakhstan, Kyrgyzstan and Xinjiang.&rdquo; In: Saxer, Martin and Zhang Juan (eds.): The Art of Neighbouring: Making Relations Across China's Borders. Amsterdam: Amsterdam University Press. pp. 95-119.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk and Andreas Benz (2014). &ldquo;Tracing Connections &ndash; Explorations of Spaces and Places.&rdquo; In: Alff, Henryk and Andreas Benz (eds.): Tracing Connections: Explorations of Spaces and Places in Asian Contexts. Berlin: Wissenschaftlicher Verlag. pp. 7-20.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2014). &ldquo;Post-Soviet Positionalities &ndash; Relations, Flows and the Transformation of Bishkek&rsquo;s Dordoy Bazaar.&rdquo; In: Alff, Henryk and Andreas Benz (eds.): Tracing Connections: Explorations of Spaces and Places in Asian Contexts. Berlin: Wissenschaftlicher Verlag. pp. 71-90.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2009). &bdquo;Die Zuwanderung ethnischer Kasachen aus dem Ausland und die staatliche Migrationspolitik &ndash; ein F&uuml;r- oder Gegeneinander.&ldquo; In: Alff, Henryk and Wulf Lapins (eds.): Oralmany &ndash; ėtničeskie kazachi v poiskach identičnosti: Aspekty integracii v sovremennoe kazachstanskoe ob&scaron;čestvo. (Oralman &ndash; ethnic Kazakhs in search of identity: Aspects of integration into the society of Kazakhstan.) Almaty: Friedrich-Ebert-Stiftung. S. 27-36.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Other Journals</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk und Anna-Katharina Hornidge (2019). &quot;Chinas blaue Expansion: Die maritime Seidenstra&szlig;e in Westafrika aus Fischereiperspektive&quot;. In: Geographische Rundschau. Jg. 71, Heft 6 (2019), S. 18-23.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2016). &bdquo;Markt unter Druck. Der Dordoi-Basar in Kirgistan unter dem Einfluss von Eurasischer Wirtschaftsunion und Wirtschaftskrise&ldquo;. In: Zentralasien-Analysen 105, S. 2-7.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2013). &bdquo;Basar&ouml;konomie im Wandel: Postsowjetische Perspektiven des Handels in Zentralasien.&ldquo; In: Geographische Rundschau, Jg. 65, Heft 11 (2013), S. 20-25.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2011). &bdquo;Soziale Netzwerke statt staatlicher Hilfe: Mobilit&auml;t und Integration kasachischer Migranten im &sbquo;Land ihrer Vorv&auml;ter&lsquo;.&ldquo; In: Zentralasien-Analysen 41, S. 2-9.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk und Eschment, Beate (2009) &bdquo;Bewunderung, Bedrohungsgef&uuml;hle und ein bisschen Spott: Sechzig Jahre Volksrepublik China in der Darstellung zentralasiatischer Medien.&ldquo; In: Zentralasien-Analysen 22, S. 9-12.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2009) &bdquo;Vom schwelenden Konflikt zum k&uuml;nftigen Fl&auml;chenbrand: Die blutigen Proteste in Xinjiang und ihre Auswirkungen auf Zentralasien. Ein Blick in die Presse.&ldquo; In: Zentralasien-Analysen 19-20, S. 20-25.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2008) &bdquo;Reale Krisenbew&auml;ltigung oder nur Kosmetik?: Kasachstans Stabilisierungsans&auml;tze in Zeiten globaler wirtschaftlicher Unw&auml;gbarkeiten. Ein Blick in die Presse.&ldquo; In: Zentralasien-Analysen 10, S. 6-11.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2006) &bdquo;Vom 'Ideologieexport' zur Wahrnehmung nationaler Interessen &ndash; Irans regionale Au&szlig;enpolitik.&ldquo; In: Felgentreff, Carsten (Ed.): Die Islamische Republik Iran. Eine Studienreise. Potsdam (= Praxis Kultur- und Sozialgeographie 39, S. 69-74).</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Proceedings</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2007). &ldquo;The South Caucasus Policy of Turkey: Strategic goals, Dynamics and Future Prospects.&rdquo; In: Sokolowski, Jacek (ed.): How far is the Caucasus? Proceedings of the International Seminar on EU and Caucasus, Krzyzowa, March 2006. Krakow.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">General Publications</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2014). &ldquo;Embracing Chinese Modernity?: Articulation and positioning in China-Kazakhstan trade and exchange processes.&ldquo; In: Crossroads Asia Working Paper Series No. 21. 27 pp.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk and Andreas Benz (2011). &bdquo;Kompetenznetzwerk Crossroads Asia.&rdquo; In: CAS Fachinformationsdienst 2011 (1), S. 9-16.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Book Reviews</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-14 size-18"><span class="font-size-18 m-font-size-14" style="display: initial;"><span class="font-size-18 m-font-size-14" style="display: initial;">Alff, Henryk (2021): &bdquo;Re-assembling the Silk Road(s) from a heritage perspective&ldquo; In: Review forum on Winter, Tim (2019): Geocultural Power: China's Quest to Revive the Silk Roads for the Twenty-First Century. Chicago: University of Chicago Press. In: Political Geography, vol. 84 (2021), 102297.</span> 
+</span><a href="https://doi.org/10.1016/j.polgeo.2020.102297" target="_blank" runtime_url="https://doi.org/10.1016/j.polgeo.2020.102297" class="font-size-18 m-font-size-14" style="display: initial;"><br/>https://doi.org/10.1016/j.polgeo.2020.102297</a></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;"><br/>Alff, Henryk (2020): Review of: Gupta, Pamila (2019): Portuguese decolonization in the Indian Ocean World: history and ethnography. London et al.: Bloomsbury. In: Journal of the Indian Ocean Region.&nbsp;</span><a href="https://doi.org/10.1080/19480881.2020.1852030" target="_blank" runtime_url="https://doi.org/10.1080/19480881.2020.1852030" class="font-size-18 m-font-size-13" style="display: initial;"><br/>https://doi.org/10.1080/19480881.2020.1852030</a></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2020): Review of: Thomas, Alun (2018): Nomads and Soviet Rule: Central Asia under Lenin and Stalin. London et al.: Bloomsbury. In: Nomadic Peoples, vol. 24, no. 2, pp. 352-54.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2019): Review of: Spector, Regine (2018): Order at the Bazaar: Power and Trade in Central Asia. Ithaca: Cornell University Press. In: Inner Asia, vol. 21, no. 1, pp. 125-128.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2018): Review of: Megoran, Nick (2017): Nationalism in Central Asia: A Biography of the Kyrgyzstan-Uzbekistan Boundary. Pittsburgh: Pittsburgh University Press. In. Political Geography.</span> 
+</span><a href="https://doi.org/10.1016/j.polgeo.2018.09.007" runtime_url="https://doi.org/10.1016/j.polgeo.2018.09.007" type="url" class="font-size-18 m-font-size-13" style="display: initial;">https://doi.org/10.1016/j.polgeo.2018.09.007</a></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2018): Review of: Cooley, Alexander and John Heathershaw (2017): Dictators without Borders: Power and Money in Central Asia. New Haven and London: Yale University Press. In: Pacific Affairs, vol. 91, no. 3, pp. 577-9.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2017). Review of: Marsden, Magnus (2016): Trading worlds: Afghan merchants across modern frontiers. London: Hurst. In: Europe-Asia Studies, vol. 69, no. 7, pp. 1128-9.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2017). Review of: Mould, David E. (2016): Postcards from Stanland: Journeys in Central Asia. Athens (OH): Ohio University Press. In: Europe-Asia Studies, vol. 69, no. 1, pp. 185-87.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2014). Review of: Cummings, Sally (2012): Understanding Central Asia: Politics and Contested Transformations. London &amp; New York: Routledge. In: Osteuropa, Jg. 64, Heft 11-12, S. 219-220.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2014). Review of: Brox, Trine &amp; Ildiko Bell&eacute;r-Hann (eds.)(2014): On the Fringes of the Harmonious Society: Tibetans and Uyghurs in Socialist China. Copenhagen: NIAS Press. In: Central Asian Survey, vol. 33, no. 4, pp. 575-577.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2014). Review of: Chang, Felix &amp; Sunnie Rucker-Chang (eds.)(2012): Chinese Migrants in Russia, Central Asia and Eastern Europe. London &amp; New York: Routledge. In: Central Asian Survey, vol. 33, no. 1, pp. 120-123.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2013). Review of: Mackerras, Colin &amp; Michael Clarke (eds.)(2009): China, Xinjiang and Central Asia: History, transition and crossborder interaction into the 21st century. London &amp; New York: Routledge. In: Osteuropa, Jg. 63, Heft 7, S. 216-217.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2012). Review of: Wagner, Mathias (2011): Die Schmugglergesellschaft: Informelle &Ouml;konomien an der Ostgrenze der Europ&auml;ischen Union. Eine Ethnographie. Bielefeld: transcript. In: Osteuropa, Jg. 62, Heft 1, S. 168-170.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Alff, Henryk (2011). Review of: Clarke, Michael (2011): Xinjiang and China&rsquo;s Rise in Central Asia &ndash; A History. London &amp; New York: Routledge. In: Osteuropa, Jg. 61, Heft 10, S. 141-142.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Peer-Review for</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="display: initial;">Development and Change, Global Networks, Political Geography, Central Asian Survey, Europe-Asia Studies, International Development Planning Review, Erdkunde, Journal of Contemporary Asia, Critical Asian Studies, Eurasian Geography &amp; Economics, Central Asian Journal of Water Research, Administration &amp; Society.</span></p><p><span class="font-size-18 m-font-size-13" style="display: initial;"><br/></span></p><p><span style="display: initial;"><br/></span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1536621293 dmRespRow fullBleedChanged fullBleedMode" style="text-align: center;" id="1536621293"> <div class="dmRespColsWrapper" id="1501970782"> <div class="u_1308293500 dmRespCol small-12 large-5 medium-5" id="1308293500"> <div class="dmRespRow" id="1870626016"> <div class="dmRespColsWrapper" id="1525190344"> <div class="dmRespCol small-12 medium-12 large-12" id="1222840539"> <div class="dmNewParagraph u_1625626145" data-element-type="paragraph" data-version="5" id="1625626145" style="transition: opacity 1s ease-in-out; text-align: left; display: block;"><p class="size-16 m-size-11"><span class="font-size-16 m-font-size-11" style="color: rgb(255, 255, 255); font-weight: 400;">henryk.alff@hnee.de</span><span class="font-size-16 m-font-size-11" style=""><br/></span></p><p class="m-size-11 size-16"><span class="font-size-16 m-font-size-11" style="color: rgb(255, 255, 255); font-weight: 400;">+49 (0) 3334 657 53</span><span class="font-size-16 m-font-size-11" style="color: rgb(255, 255, 255); font-weight: 400;">7</span></p><p><span class="font-size-16 m-font-size-11" style="color: rgb(255, 255, 255); font-weight: 400;"><br/></span></p><p><br/></p></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1161343693 dmRespCol small-12 large-3 medium-3" id="1161343693"> <h5 class="u_1058955380 dmNewParagraph" id="1058955380" data-element-type="paragraph"><div style="text-align: left;"><span style="background-color: transparent; color: rgb(255, 255, 255);" class="font-size-16 lh-1"></span></div><font class="font-size-14 lh-1"><span style="font-family: 'Karla';"><span style="font-weight: 400;" class="lh-1 font-size-16"><div style="text-align: left;"><span style="background-color: transparent; color: rgb(255, 255, 255);" class="lh-1">Dr Henryk Alff</span></div><div style="text-align: left;"><span style="background-color: transparent; color: rgb(255, 255, 255);" class="lh-1">TRANSECT<br/>Schwappachweg 3 (22.1)</span></div><div style="text-align: left;"><font style="" class="lh-1" color="#ffffff">16225 Eberswalde</font></div><div style="text-align: left;"><span style="color: rgb(255, 255, 255);" class="lh-1">Germany</span></div></span></span></font><div style="text-align: left;"><span style="color: rgb(255, 255, 255);" class="font-size-16 lh-1"></span></div></h5></div> 
+ <div class="u_1249956812 dmRespCol small-12 large-4 medium-4" id="1249956812"> <div class="u_1843850508 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1843850508"><img src="https://le-cdn.website-editor.net/s/95ee33f6d4e04c8bae6d20897b80f304/dms3rep/multi/opt/HNEE-1920w.jpg?Expires=1647561834&Signature=nADRo0ATcDovz6uzKQk~2wDz7x8~FdNONuFdM0iHJlM9zVVL6jX2x75fwHe9qXay3J-8Dttt~hdYqxke-u9Z~kPQr7sHsnIwbYNc7MLVp18nKrDqBqTNWEXOBHg4yvrOgcmWC~r0EnBOaNZyc9mY9y5XwNOb7ZrZ9EsTCy2Nv8LLCyxAwTMhQUAxY8IFwwojSvHbCqwV6iJ9-7nvTqMGuE3woUckAE-l9yYc7H6aBHwv8nw29zsiS1mYuJtwK138qt-OWOZKEDsDAqhpBlGk7awtwEPo-tcXRlFmQiD-uvAa7UxBhXRgthnGFJ1mcItrheBMWTw-5uitbNF~FoAxew__&Key-Pair-Id=K2NXBXLF010TJW" id="1925435683" class="" data-dm-image-path="https://cdn.website-editor.net/95ee33f6d4e04c8bae6d20897b80f304/dms3rep/multi/HNEE.jpg" title="HNEE" onerror="handleImageLoadError(this)"/></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmFooterContainer"> <div id="fcontainer" class="f_hcontainer dmFooter p_hfcontainer"> <div dm:templateorder="250" class="dmFooterResp generalFooter" id="1943048428"> <div class="dmRespRow u_1520210630" id="1520210630"> <div class="dmRespColsWrapper" id="1790215735"> <div class="dmRespCol large-12 medium-12 small-12" id="1614835002"> <div class="default u_1235368505 dmBlogSearch" searchpage="blog-search" id="1235368505" dmle_extension="internal_blog_search" data-element-type="internal_blog_search" wr="true" icon="true" surround="true" adwords="" placeholder=""> <div class="dmBlogSearchWrapper"><!--  position relative --><input type="text" placeholder="" class="dmBlogSearchInput" maxlength="100"/> <div class="dmBlogSearchClickOverlay"></div> 
+ <div class="dmBlogSearchIcon dm-icon-search2"></div> 
+<!--  position absolute --></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div id="1236746004" dmle_extension="powered_by" data-element-type="powered_by" icon="true" surround="false"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+    </div>
+</div>
+<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+<!-- ========= JS Section ========= -->
+
+<!-- Modernizr -->
+<script>
+    /* THIS FILE IS AUTO-GENERATED. SEE build/build-modernizr */
+
+/*! modernizr 3.5.0 (Custom Build) | MIT *
+ * https://modernizr.com/download/?-passiveeventlisteners-supports-setclasses-cssclassprefix:dm- !*/
+!function(e,n,s){function o(e,n){return typeof e===n}function t(){var e,n,s,t,a,r,l;for(var c in i)if(i.hasOwnProperty(c)){if(e=[],n=i[c],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(s=0;s<n.options.aliases.length;s++)e.push(n.options.aliases[s].toLowerCase());for(t=o(n.fn,"function")?n.fn():n.fn,a=0;a<e.length;a++)r=e[a],l=r.split("."),1===l.length?Modernizr[l[0]]=t:(!Modernizr[l[0]]||Modernizr[l[0]]instanceof Boolean||(Modernizr[l[0]]=new Boolean(Modernizr[l[0]])),Modernizr[l[0]][l[1]]=t),f.push((t?"":"no-")+l.join("-"))}}function a(e){var n=l.className,s=Modernizr._config.classPrefix||"";if(c&&(n=n.baseVal),Modernizr._config.enableJSClass){var o=new RegExp("(^|\\s)"+s+"no-js(\\s|$)");n=n.replace(o,"$1"+s+"js$2")}Modernizr._config.enableClasses&&(n+=" "+s+e.join(" "+s),c?l.className.baseVal=n:l.className=n)}var i=[],r={_version:"3.5.0",_config:{classPrefix:"dm-",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var s=this;setTimeout(function(){n(s[e])},0)},addTest:function(e,n,s){i.push({name:e,fn:n,options:s})},addAsyncTest:function(e){i.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=r,Modernizr=new Modernizr;var f=[],l=n.documentElement,c="svg"===l.nodeName.toLowerCase(),u="CSS"in e&&"supports"in e.CSS,p="supportsCSS"in e;Modernizr.addTest("supports",u||p),Modernizr.addTest("passiveeventlisteners",function(){var n=!1;try{var s=Object.defineProperty({},"passive",{get:function(){n=!0}});e.addEventListener("test",null,s)}catch(o){}return n}),t(),a(f),delete r.addTest,delete r.addAsyncTest;for(var d=0;d<Modernizr._q.length;d++)Modernizr._q[d]();e.Modernizr=Modernizr}(window,document);
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    window.collections = {};
+    window.currentLanguage = "ENGLISH_UK"
+</script>
+<script type="text/javascript">
+
+    var d_version = "12..35";
+    var build = "2022-02-15T13_56_00";
+    window['v'+'ersion'] = d_version;
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2022-02-15T13_56_00";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            }
+            else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+
+
+</script>
+<!-- Load jQuery -->
+<script type="text/javascript" src="https://static-cdn.website-editor.net/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- End Load jQuery -->
+
+<!-- Injecting site-wide before scripts -->
+<!-- End Injecting site-wide to the head -->
+
+
+<script>
+    var jquery = window.$;
+    Object.defineProperty(window, '$', {
+        get() {
+            return jquery;
+        },
+        set() {
+            console.warn("Trying to over-write the global jquery object!");
+        }
+    });
+</script>
+<script>
+    window.cookiesNotificationMarkupPreview = 'null';
+</script>
+<script>
+    var shouldMonitorImages = false;
+    var numOfImageLoadErrorsReported = 0;
+    if(shouldMonitorImages) {
+        window.addEventListener('error', function(event) {
+            // log secured resources failures
+            if(event.target && event.target.src && event.target.src.includes
+                && event.target.src.includes('/s/')
+                && !event.target.src.includes('/_dm/s/rt/')) {
+                if (!window.fetch || numOfImageLoadErrorsReported > 4){
+                    return;
+                }
+                try {
+                    numOfImageLoadErrorsReported++;
+                    return fetch('/_dm/s/rt/actions/log/INFO', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ data: {
+                                tags: 'imageFailedToLoad',
+                                eventType: event.type,
+                                image: event.target.src,
+                                href: window.location.href
+                            } })
+                    });
+                } catch (error) {
+                    console.log(error);
+                }
+
+            }
+        }, { capture: true });
+    }
+
+</script>
+<!-- HEAD RT JS Include -->
+<script>
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["runtimecollector.url"] = 'https://rtc.website-editor.net';
+    rtCommonProps["facebook.accessToken"] = '126515034112906|8vv7JhnEegS8qz43fIOZjxGZReA';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["feature.flag.contactUsNewForm"] = 'true';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+    rtCommonProps["google.places.key"] = 'AIzaSyBAwUOqPUB1CU31yDztoZYaUE7sPv4ktEI';
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.opencage.token"] = '319e14f32bcce967ba55cd263478796d';
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["feature.flag.mappy.kml"] =false;
+    rtCommonProps["common.resources.dist.cdn"]=true;
+    rtCommonProps["common.build.dist.folder"]='production/2307';
+    rtCommonProps["common.resources.cdn.host"]='https://static-cdn.website-editor.net';
+    rtCommonProps["common.resources.folder"]='https://static-cdn.website-editor.net/mnlt/production/2307';
+    rtCommonProps["import.images.storage.useImageCDN"]=true;
+    rtCommonProps["feature.flag.runtime.backgroundSlider.preload.slowly"]=true;
+    rtCommonProps["feature.flag.runtime.photoswipe.fix"]=true;
+    rtCommonProps["feature.flag.runtime.newAnimation.enabled"]=true;
+    rtCommonProps["feature.flag.runtime.newAnimation.respectCssAnimationProps.enabled"]=true;
+    rtCommonProps["feature.flag.runtime.newAnimation.jitAnimation.enabled"]=true;
+    rtCommonProps["feature.flag.sites.google.analytics.gtag"]=true;
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'here';
+    rtCommonProps['common.map.defaults.radiusSize'] = '1500';
+    rtCommonProps['common.map.defaults.radiusBg'] = 'rgba(255, 255, 255, 0.4)';
+    rtCommonProps['common.map.defaults.strokeColor'] = 'rgba(255, 255, 255, 1)';
+    rtCommonProps['common.map.defaults.strokeSize'] = '2';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['editor.infra.noPrefixedChanges'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.disallowPopupsInEditor'] = true;
+    rtCommonProps['feature.flag.mark.anchors'] = true;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"] =160;
+    rtCommonProps["images.sizes.mobile"] =640;
+    rtCommonProps["images.sizes.tablet"] =1280;
+    rtCommonProps["images.sizes.desktop"] =1920;
+    rtCommonProps["modules.resources.cdn"] =true;
+    rtCommonProps["import.images.storage.imageCDN"] = 'https://le-cdn.website-editor.net/';
+    rtCommonProps["facebook.api.version"] = '7.0';
+    rtCommonProps["runtime.save.restore.function.bind"] =true;
+    rtCommonProps["feature.flag.photo.gallery.exact.size"] =false;
+    rtCommonProps["feature.flag.photo.gallery.lazy"] =true;
+    rtCommonProps["store.handleItemId.enabled"] =true;
+    rtCommonProps["new.store.fix.ecwid.back.bug"] =true;
+    rtCommonProps["new.store.accountPage.ecwid.signIn.fix"] =true;
+    rtCommonProps["fix.ecwid.sign.in.page.with.return.url"] =true;
+    rtCommonProps["site.runtime.video.background.ssr"] =true;
+    rtCommonProps["membership.dmApi.getLoggedInMember.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.asyncInit.enabled"] =false;
+</script>
+<script src="https://static-cdn.website-editor.net/mnlt/production/2307/_dm/s/rt/dist/scripts/d-js-one-runtime-unified-desktop.min.js" ></script>
+<!-- End of HEAD RT JS Include -->
+<script>jQuery.DM.updateWidthAndHeight();
+$(window).resize(function () {
+    
+});
+$(window).bind("orientationchange", function (e) {
+    $.layoutManager.initLayout();
+    
+});
+$(document).resize(function () {
+    
+});
+</script>
+
+<script type="text/javascript" id="d_track_campaign">
+(function() {
+ 	var campaign = (/utm_campaign=([^&]*)/).exec(window.location.search);
+
+ 	if (campaign && campaign != null && campaign.length > 1) {
+ 		campaign = campaign[1];
+ 		document.cookie = "_dm_rt_campaign=" + campaign + ";expires=" + new Date().getTime() + 24*60*60*1000 + ";domain=" + window.location.hostname + ";path=/";
+ 	}
+}());
+</script>
+<script type="text/javascript" >
+  var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [];
+</script>
+
+  </script>
+<script type="text/javascript" id="d_track_sp">
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d1dxoqu0t5mb7j.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+window.dmsnowplow  = window.snowplow;
+
+dmsnowplow('newTracker', 'cf', 'd1dxoqu0t5mb7j.cloudfront.net', { // Initialise a tracker
+  appId: '95ee33f6d4e04c8bae6d20897b80f304'
+});
+
+dmsnowplow('trackPageView')
+$.each(_dm_insite, function(idx, rule) {
+	//('trackStructEvent', 'category','action','label','property','value');
+			// Specifically in popup only the client knows if it is shown or not so we don't always want to track its impression here
+	        // the tracking is in popup.js
+			if (rule.actionName !== "popup") {
+                dmsnowplow('trackStructEvent', 'insite', 'impression', rule.ruleType, rule.ruleId);
+            }
+ 			$(document).ready(function(){
+ 				$.DM.events.trigger('event-ruleTriggered', {value: rule})}
+ 			);
+ 		});
+</script>
+   <div style="display:none;" id="P6iryBW0Wu"></div>
+
+<!-- photoswipe markup -->
+
+
+
+
+
+
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="fb-root"
+        data-locale="en_GB"></div>
+<!-- Alias: 95ee33f6d4e04c8bae6d20897b80f304 -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div id="dmPopup" class="dmPopup">
+	<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-common-icons-close oneIcon" onclick="dmHidePopup(event);"></div> </div>
+ 	<div class="dmPopupTitle"> <span></span> Share by:</div> 
+	<div class="data"></div>
+</div><script id="d_track_personalization">
+// Collects client data and updates cookies used by smart sites
+var expireDays = 365,visitLength = 30 * 60000;
+$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), expireDays);
+function setSmartSiteCookies() {
+	setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+}
+$.DM.events.on("afterAjax", setSmartSiteCookies);
+setSmartSiteCookies();
+</script>
+<script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = 'More';
+    
+    Parameters.NavigationAreaParams.LessButtonText = '......';
+    Parameters.HomeLinkText = 'Home';
+    </script>
+
+<script>
+
+    jQuery(window).on('load', function () {
+        try {
+            jQuery.DM.updateIOSHeight();
+        } catch (e) {
+        }
+
+    });
+</script>
+<script>
+    dmAPI.loadScript(
+        window.rtCommonProps['common.resources.cdn.host'] + '/libs/lozad/1.15.0/lozad.min.js',
+        function () {
+            dmAPI.runOnReady('lozadInit', function () {
+                window.document.querySelectorAll('img.lazy').forEach(function (img) {
+                    img.addEventListener('load', function (event) {
+                        var img = event.target;
+                        img.style.filter = 'blur(0)';
+                        setTimeout(function () {
+                            $(img).closest('.imageWidget').addClass('lazyLoaded');
+                        }, 250)
+                    });
+                });
+                lozad('.lazy', {
+                    threshold: 0.1,
+                    loaded: function (element) {
+                        if (element.getAttribute('data-background-image')) {
+                            element.style.setProperty(
+                                'background-image',
+                                "url('" + element.getAttribute('data-background-image') + "')",
+                                "important"
+                            );
+                        }
+                    }
+                }).observe();
+            });
+        }
+    );
+</script>
+<script id="ssr-script" type="text/javascript">
+    </script>
+<!--  End Script tags -->
+
+<!--  Site Wide Html Markup -->
+<!--  Site Wide Html Markup -->
+<!--  Begin Product Custom HTML Markup -->
+<script>
+function call1and1Tracking() {
+	var externalId = dmAPI.getSiteExternalId();
+	var siteName = dmAPI.getSiteName();
+	var src = 'https://integration.mywebsite-editor.com/dakota-snippet-service/snippet/integration/snippet.js?sitename='+siteName+'&external_uid='+externalId+'&mode=visit'
+	var tracking = document.createElement('script');
+     tracking.setAttribute('src',src);
+   	document.head.appendChild(tracking);
+}
+call1and1Tracking();
+</script><!--  End Product Custom HTML Markup -->
+</body>
+</html>
