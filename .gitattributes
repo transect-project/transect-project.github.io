@@ -1,0 +1,8 @@
+# Preserve archived bytes exactly. The captured pages and CDN assets must not be
+# line-ending-converted (it would alter CSS/JS content and defeat the archive),
+# so treat the snapshot and served asset trees as binary/opaque.
+_snapshot/** -text
+assets/** -text
+_dm/** -text
+*.min.css -text
+*.min.js -text
