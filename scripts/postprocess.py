@@ -253,6 +253,62 @@ def remap_missing_versioned(dest: str) -> int:
     return total
 
 
+_SAFE_RE = re.compile(r"[^A-Za-z0-9._-]")
+
+
+def _sanitize_basename(name: str) -> str:
+    """Reduce a filename to characters GitHub Pages serves reliably.
+
+    Pages (Fastly) decodes '+' in a path to a space and is unreliable with
+    parentheses, spaces and non-ASCII, so images with those names 404 even
+    though a local `http.server` serves them fine. Underscores are kept (used by
+    our version-hash suffixes); extensions are lowercased for case-safety.
+    """
+    root, ext = os.path.splitext(name)
+    root = _SAFE_RE.sub("-", root)
+    root = re.sub(r"-{2,}", "-", root).strip("-") or "file"
+    return root + ext.lower()
+
+
+def sanitize_asset_filenames(dest: str) -> int:
+    """Rename /assets files to Pages-safe names and rewrite every reference to
+    them across the built HTML/CSS. Returns the number of files renamed."""
+    assets = os.path.join(dest, "assets")
+    if not os.path.isdir(assets):
+        return 0
+    mapping: dict[str, str] = {}  # old served path -> new served path
+    for base, _dirs, files in os.walk(assets):
+        used = set(os.listdir(base))
+        for f in files:
+            new = _sanitize_basename(f)
+            if new == f:
+                continue
+            if new in used and os.path.join(base, new) != os.path.join(base, f):
+                stem, ext = os.path.splitext(new)
+                new = f"{stem}-{abs(hash(f)) % 100000}{ext}"
+            os.rename(os.path.join(base, f), os.path.join(base, new))
+            used.discard(f)
+            used.add(new)
+            old_served = "/" + os.path.relpath(os.path.join(base, f), dest).replace(os.sep, "/")
+            new_served = "/" + os.path.relpath(os.path.join(base, new), dest).replace(os.sep, "/")
+            mapping[old_served] = new_served
+    if not mapping:
+        return 0
+    # Rewrite references (longest paths first to avoid partial overlaps).
+    ordered = sorted(mapping.items(), key=lambda kv: len(kv[0]), reverse=True)
+    for path in iter_files(dest, (".html", ".htm", ".css")):
+        with open(path, "r", encoding="utf-8", errors="replace") as fh:
+            text = fh.read()
+        new_text = text
+        for old, new in ordered:
+            if old in new_text:
+                new_text = new_text.replace(old, new)
+        if new_text != text:
+            with open(path, "w", encoding="utf-8") as fh:
+                fh.write(new_text)
+    return len(mapping)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--src", default="_snapshot")
@@ -289,8 +345,10 @@ def main() -> int:
         inject_html(path)
 
     remapped = remap_missing_versioned(args.dest)
+    renamed = sanitize_asset_filenames(args.dest)
     print(f"Post-processed {len(html_files)} HTML files; "
-          f"remapped {remapped} missing versioned CSS/JS refs to captured siblings.")
+          f"remapped {remapped} missing versioned CSS/JS refs to captured siblings; "
+          f"sanitized {renamed} asset filenames for GitHub Pages.")
     if not HAVE_BS4:
         print("NOTE: bs4 not installed -- data-src->src conversion skipped; "
               "install beautifulsoup4 and re-run for static image rendering.")
