@@ -258,6 +258,52 @@ def remap_missing_versioned(dest: str) -> int:
     return total
 
 
+def restore_parallax_backgrounds(dest: str) -> int:
+    """Re-attach section background photos that the live site's parallax
+    JavaScript applied at runtime.
+
+    Several section elements carry a capitalised semantic class (e.g. ``u_Goals``)
+    while the stylesheet's ``background-image`` rule is keyed on the lower-case
+    form (``.u_goals``). The builder's JS bridged that at load time; statically it
+    never matches, so the (present) photo never paints. For each such lower-case
+    background rule whose image exists on disk, add the matching lower-case class
+    to the element that has its capitalised twin, so the existing background (and
+    its overlay) rules apply. Returns the number of classes added.
+    """
+    if not HAVE_BS4:
+        return 0
+    rule_re = re.compile(
+        r"\.(u_[A-Za-z0-9]+)\s*\{[^{}]*?background-image:\s*url\((/assets/[^),'\"]+)\)",
+        re.I,
+    )
+    added = 0
+    for path in iter_files(dest, (".html", ".htm")):
+        with open(path, "r", encoding="utf-8", errors="replace") as fh:
+            html = fh.read()
+        bg_classes = {
+            cls for cls, img in rule_re.findall(html)
+            if cls.islower() and os.path.exists(os.path.join(dest, img.lstrip("/")))
+        }
+        if not bg_classes:
+            continue
+        soup = BeautifulSoup(html, "html.parser")
+        changed = False
+        for el in soup.find_all(class_=True):
+            classes = el.get("class", [])
+            to_add = [
+                c.lower() for c in classes
+                if c.lower() != c and c.lower() in bg_classes and c.lower() not in classes
+            ]
+            if to_add:
+                el["class"] = classes + to_add
+                added += len(to_add)
+                changed = True
+        if changed:
+            with open(path, "w", encoding="utf-8") as fh:
+                fh.write(str(soup))
+    return added
+
+
 _SAFE_RE = re.compile(r"[^A-Za-z0-9._-]")
 
 
@@ -351,9 +397,11 @@ def main() -> int:
 
     remapped = remap_missing_versioned(args.dest)
     renamed = sanitize_asset_filenames(args.dest)
+    bg_added = restore_parallax_backgrounds(args.dest)
     print(f"Post-processed {len(html_files)} HTML files; "
           f"remapped {remapped} missing versioned CSS/JS refs to captured siblings; "
-          f"sanitized {renamed} asset filenames for GitHub Pages.")
+          f"sanitized {renamed} asset filenames for GitHub Pages; "
+          f"restored {bg_added} parallax section backgrounds.")
     if not HAVE_BS4:
         print("NOTE: bs4 not installed -- data-src->src conversion skipped; "
               "install beautifulsoup4 and re-run for static image rendering.")
