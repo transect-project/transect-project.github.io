@@ -36,25 +36,35 @@ files on the rare occasions it changes.
 
 ## Regenerating the archived content
 
-The scraped pages are produced by two scripts. Both need outbound access to
-`web.archive.org` (the fetch step) and, ideally, `beautifulsoup4` (the post-process
-step, for automatic nav-link injection).
+The original site was built with the IONOS/1&1 "MyWebsite" builder, so its pages live
+on `www.transect.de` but its images, widget CSS, fonts and runtime JS live on
+`*.website-editor.net` CDNs (plus Google Fonts). Rebuilding therefore takes **three
+steps** — two fetch passes (which need outbound access to `web.archive.org`) and one
+post-process pass (offline).
 
 ```bash
-# 1. Download the full site into _snapshot/ (raw, unmodified archive bytes)
+# 1. Download the site's own pages/assets into _snapshot/ (raw archive bytes)
 python3 scripts/fetch_snapshot.py --domain www.transect.de --timestamp 20240419182714 --out _snapshot
 
-# 2. (optional but recommended) enable nav-link injection
-pip install beautifulsoup4
+# 2. Harvest the external CDN assets (images/CSS/JS/fonts) referenced by those
+#    pages, into _snapshot/_ext/, and write _snapshot/_assetmap.json
+python3 scripts/fetch_assets.py --snapshot _snapshot --timestamp 20240419182714
 
-# 3. Copy into the repo root, normalize links, inject the banner + PARCSA nav link
+# 3. Build the served site into the repo root: relocate extensionless pages to
+#    <name>/index.html, localize all CDN URLs, copy data-src->src, and inject the
+#    archive banner + fallback nav + PARCSA link. (bs4 recommended.)
+pip install beautifulsoup4
 python3 scripts/postprocess.py --src _snapshot --dest . --domain www.transect.de
 ```
 
-After the first run, inspect the scraped navigation markup and, if needed, adjust
-`NAV_HINTS` in `scripts/postprocess.py` so the PARCSA link lands in the real menu, then
-re-run step 3. The `_snapshot/` directory is the pristine capture and can be kept for
-provenance or discarded once the processed site is committed.
+The image URLs on the original pages are signed and long-expired, so they can only be
+recovered from the Internet Archive (step 2), not the live CDN. `postprocess.py` copies
+lazy-loaded `data-src` images onto `src` so they render without the builder's
+JavaScript, and injects a static fallback navigation (`#archive-nav`) so the site stays
+navigable even if the builder's JS menu does not initialize.
+
+The `_snapshot/` directory is the pristine capture (git-ignored by default); keep it for
+provenance/regeneration or discard once the processed site is committed.
 
 ## Previewing locally
 

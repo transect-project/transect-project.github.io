@@ -21,14 +21,48 @@
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
 }
 
-/* Push the page down so the fixed banner never covers original content.
-   --archive-banner-height can be overridden per-site if wrapping changes it. */
+/* Static fallback navigation, injected just under the banner. Guarantees the
+   archive is navigable even if the original builder's JavaScript menu does not
+   initialize. */
+#archive-nav {
+  position: fixed;
+  top: var(--archive-banner-height);
+  left: 0;
+  right: 0;
+  z-index: 2147483646;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 20px;
+  justify-content: center;
+  padding: 8px 16px;
+  background: #22303f;
+  border-bottom: 1px solid #0d151d;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-size: 14px;
+}
+
+#archive-nav a {
+  color: #eef3f8;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+#archive-nav a:hover,
+#archive-nav a:focus {
+  text-decoration: underline;
+}
+
+/* Push the page down so the fixed banner + nav never cover original content.
+   Heights can be overridden per-site if wrapping changes them. */
 :root {
   --archive-banner-height: 40px;
+  --archive-nav-height: 39px;
 }
 
 body {
-  margin-top: var(--archive-banner-height) !important;
+  margin-top: calc(var(--archive-banner-height) + var(--archive-nav-height)) !important;
 }
 
 @media (max-width: 600px) {
@@ -36,7 +70,12 @@ body {
     font-size: 12px;
     padding: 6px 10px;
   }
+  #archive-nav {
+    font-size: 13px;
+    gap: 2px 14px;
+  }
   :root {
     --archive-banner-height: 56px;
+    --archive-nav-height: 64px;
   }
 }
