@@ -189,6 +189,11 @@ def inject_html(path: str) -> None:
             anchor = soup.find(id="archive-banner")
             nav = BeautifulSoup(build_fallback_nav(), "html.parser")
             (anchor.insert_after(nav) if anchor else soup.body.insert(0, nav))
+        # Remove the original builder navigation menu (its JS-driven links are
+        # unreliable in the static archive); the injected #archive-nav replaces
+        # it. The logo/header container is left intact.
+        for orig_nav in soup.select("nav.main-navigation"):
+            orig_nav.decompose()
         # Lazy images -> eager: copy data-src onto src.
         for img in soup.find_all("img"):
             ds = img.get("data-src")
