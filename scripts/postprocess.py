@@ -129,14 +129,24 @@ def build_asset_regexes(asset_map: dict[str, str]) -> list[tuple[re.Pattern, str
     path_based: dict[str, str] = {}
     for url, served in asset_map.items():
         base = url.split("?", 1)[0]
-        path_based[_schemeless(base)] = served
-        if "?" in url:
+        key = _schemeless(base)
+        # Skip host-only URLs (e.g. preconnect/dns-prefetch hints) -- there's no
+        # real file to localize and rewriting them yields broken /index paths.
+        if re.fullmatch(r"//[^/]+/?", key):
+            continue
+        path_based[key] = served
+        # Only assets whose local filename encodes a query hash (font CSS,
+        # versioned runtime CSS) need query-specific rules; signed image URLs
+        # share one path and are handled by the path rule below.
+        if "?" in url and "__" in os.path.basename(served):
             exact[_schemeless(url)] = served
 
     rules: list[tuple[re.Pattern, str]] = []
     for key in sorted(exact, key=len, reverse=True):
-        pat = re.compile(r"(?:https?:)?" + re.escape(key).replace("&", "(?:&|&amp;)"))
-        rules.append((pat, exact[key]))
+        # Match '&' as '&' or the HTML entity '&amp;'; escape each segment
+        # separately so parentheses in the pattern stay balanced.
+        body = "(?:&|&amp;)".join(re.escape(seg) for seg in key.split("&"))
+        rules.append((re.compile(r"(?:https?:)?" + body), exact[key]))
     for key in sorted(path_based, key=len, reverse=True):
         pat = re.compile(r"(?:https?:)?" + re.escape(key) + r"(?:\?[^\s\"'()<>\\]*)?")
         rules.append((pat, path_based[key]))
@@ -161,6 +171,15 @@ def inject_html(path: str) -> None:
 
     if HAVE_BS4:
         soup = BeautifulSoup(html, "html.parser")
+        # Define the builder's image-error handler (its defining script was not
+        # captured), so uncaptured images don't throw and abort later scripts
+        # (e.g. the menu initializer); hide broken images to avoid blank frames.
+        if soup.head and not soup.find(id="archive-img-shim"):
+            shim = soup.new_tag("script", id="archive-img-shim")
+            shim.string = ("window.handleImageLoadError=window.handleImageLoadError||"
+                           "function(el){try{if(el&&el.style)el.style.display='none';}"
+                           "catch(e){}};")
+            soup.head.insert(0, shim)
         if soup.head and not soup.find("link", href=BANNER_CSS_HREF):
             soup.head.append(soup.new_tag("link", rel="stylesheet", href=BANNER_CSS_HREF))
         if soup.body and not soup.find(id="archive-banner"):
@@ -187,6 +206,51 @@ def inject_html(path: str) -> None:
 
     with open(path, "w", encoding="utf-8") as fh:
         fh.write(out)
+
+
+def _css_js_identity(ref_or_path: str) -> str:
+    """Version-agnostic identity for a CSS/JS asset: basename with a trailing
+    ``__<hex>`` version hash stripped. Lets a page's reference to a version we
+    did not capture be remapped to a captured sibling of the same file."""
+    b = os.path.basename(ref_or_path)
+    return re.sub(r"__[0-9a-f]{6,}$", "", b)
+
+
+def remap_missing_versioned(dest: str) -> int:
+    """Rewrite references to versioned CSS/JS assets we failed to capture onto a
+    captured sibling (same file, different version stamp). Returns #rewrites."""
+    # Index present css/js on disk by identity; prefer the most complete copy.
+    present: dict[str, str] = {}
+    for base, _d, files in os.walk(os.path.join(dest, "assets")):
+        for f in files:
+            if f.lower().endswith((".css", ".js")):
+                served = "/" + os.path.relpath(os.path.join(base, f), dest).replace(os.sep, "/")
+                present.setdefault(_css_js_identity(f), served)
+
+    ref_re = re.compile(r"/assets/[^\s\"'()<>\\]+\.(?:css|js)")
+    total = 0
+    for path in iter_files(dest, (".html", ".htm", ".css")):
+        with open(path, "r", encoding="utf-8", errors="replace") as fh:
+            text = fh.read()
+        changed = False
+
+        def sub(m: re.Match) -> str:
+            nonlocal changed, total
+            ref = m.group(0)
+            if os.path.exists(os.path.join(dest, ref.lstrip("/"))):
+                return ref
+            sib = present.get(_css_js_identity(ref))
+            if sib and sib != ref:
+                changed = True
+                total += 1
+                return sib
+            return ref
+
+        new = ref_re.sub(sub, text)
+        if changed:
+            with open(path, "w", encoding="utf-8") as fh:
+                fh.write(new)
+    return total
 
 
 def main() -> int:
@@ -224,7 +288,9 @@ def main() -> int:
     for path in html_files:
         inject_html(path)
 
-    print(f"Post-processed {len(html_files)} HTML files.")
+    remapped = remap_missing_versioned(args.dest)
+    print(f"Post-processed {len(html_files)} HTML files; "
+          f"remapped {remapped} missing versioned CSS/JS refs to captured siblings.")
     if not HAVE_BS4:
         print("NOTE: bs4 not installed -- data-src->src conversion skipped; "
               "install beautifulsoup4 and re-run for static image rendering.")
