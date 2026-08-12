@@ -59,6 +59,17 @@
   text-decoration: none;
 }
 
+/* Restore the semi-opaque panel behind section text. In the live site the builder
+   drew a translucent block between each section's text and its background photo via
+   a JS-generated element that the static capture lacks; sections without the
+   builder's own overlay class therefore show text directly on the photo. Re-create
+   the block on the text paragraphs of those photo-backed parallax sections. */
+#dm .dmSectionParallaxNew:not(.hasBackgroundOverlay) .dmNewParagraph {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  padding: 14px 18px !important;
+  border-radius: 2px;
+}
+
 /* The archive nav replaces the site's original header menu, so hide the now-empty
    original header chrome (it only held the removed menu and an empty logo) and its
    sticky spacer, letting page content sit directly under the archive nav.
