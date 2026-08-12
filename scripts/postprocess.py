@@ -25,6 +25,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -62,9 +63,15 @@ def build_fallback_nav() -> str:
     return f'<nav id="archive-nav" aria-label="Archived site navigation">{links}</nav>'
 
 
+# Directories under the destination that are inputs/tooling, never served output;
+# the post-processing passes must not descend into them (esp. the _snapshot source).
+_EXCLUDE_DIRS = {"_snapshot", ".git", "scripts", "node_modules"}
+
+
 def iter_files(root: str, exts: tuple[str, ...] | None = None) -> list[str]:
     out = []
-    for base, _d, files in os.walk(root):
+    for base, dirs, files in os.walk(root):
+        dirs[:] = [d for d in dirs if d not in _EXCLUDE_DIRS]
         for f in files:
             if exts is None or f.lower().endswith(exts):
                 out.append(os.path.join(base, f))
@@ -330,13 +337,15 @@ def sanitize_asset_filenames(dest: str) -> int:
     mapping: dict[str, str] = {}  # old served path -> new served path
     for base, _dirs, files in os.walk(assets):
         used = set(os.listdir(base))
-        for f in files:
+        for f in sorted(files):  # stable order for reproducible builds
             new = _sanitize_basename(f)
             if new == f:
                 continue
             if new in used and os.path.join(base, new) != os.path.join(base, f):
+                # Deterministic disambiguation (hash() is per-process randomised).
                 stem, ext = os.path.splitext(new)
-                new = f"{stem}-{abs(hash(f)) % 100000}{ext}"
+                digest = hashlib.md5(f.encode("utf-8")).hexdigest()[:6]
+                new = f"{stem}-{digest}{ext}"
             os.rename(os.path.join(base, f), os.path.join(base, new))
             used.discard(f)
             used.add(new)
