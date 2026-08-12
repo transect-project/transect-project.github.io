@@ -59,12 +59,42 @@
   text-decoration: none;
 }
 
-/* Restore the semi-opaque panel behind section text. In the live site the builder
-   drew a translucent block between each section's text and its background photo via
-   a JS-generated element that the static capture lacks; sections without the
-   builder's own overlay class therefore show text directly on the photo. Re-create
-   the block on the text paragraphs of those photo-backed parallax sections. */
-#dm .dmSectionParallaxNew:not(.hasBackgroundOverlay) .dmNewParagraph {
+/* The site's full-page background photo (a Central-Asian landscape) was never
+   captured by the Wayback Machine, so pages fell back to flat black and the
+   translucent text panels had nothing to read against. Substitute a captured
+   landscape so sections that relied on the page background (Institutional
+   Affiliations, Partners, External Advisors, Partner Projects, ...) look like the
+   original. NB: editorial -- this is a stand-in, not the exact original photo. */
+html {
+  background: #1a1a1a
+    url("/assets/le-cdn.website-editor.net/s/95ee33f6d4e04c8bae6d20897b80f304/dms3rep/multi/opt/DSC_0453-1-1920w.jpg")
+    center top / cover fixed no-repeat !important;
+}
+/* Let the builder's full-width page wrappers show the root photo instead of
+   painting over it (u_allWrapper carried the missing bg-white overlay). Real
+   per-section colours (e.g. the black team/contact bands) are left intact. */
+#dm,
+#dm .dmInner,
+#dm .u_allWrapper,
+#dm #site_content,
+#dm #dm_content {
+  background-color: transparent !important;
+}
+#dm .u_allWrapper {
+  background-image: none !important;
+}
+/* Advisor/partner names were computing to a near-black grey; lift them so they
+   read against the photo, as in the original. */
+#dm .dmBody div[id="PartnersA"] font,
+#dm .dmBody div[id="PartnersA"] span {
+  color: #ececec !important;
+}
+
+/* Re-create the semi-opaque panel behind section text. In the live site the builder
+   drew a translucent block between each text block and the background photo via a
+   JS-generated element the static capture lacks, so text otherwise sits bare on the
+   photo. Apply it to the text paragraphs across content sections. */
+#dm .dmNewParagraph {
   background-color: rgba(0, 0, 0, 0.4) !important;
   padding: 14px 18px !important;
   border-radius: 2px;
