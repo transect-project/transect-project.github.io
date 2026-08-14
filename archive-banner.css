@@ -59,6 +59,104 @@
   text-decoration: none;
 }
 
+/* TRANSECT logo at the left of the nav; margin-right:auto pushes the links right. */
+#archive-nav .archive-logo {
+  margin-right: auto;
+  padding: 0 8px 0 0;
+  display: inline-flex;
+  align-items: center;
+}
+#archive-nav .archive-logo img {
+  height: 30px;
+  width: auto;
+  display: block;
+}
+
+/* ---- Rebuilt project-team section (mirrors the External Advisors layout) ---- */
+#archive-team {
+  max-width: 1000px;
+  margin: 8px auto 0;
+  text-align: left;
+  display: grid;
+  gap: 18px;
+}
+#archive-team .team-member {
+  display: flex;
+  gap: 22px;
+  align-items: flex-start;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  padding: 18px 20px;
+}
+#archive-team .team-photo {
+  flex: none;
+  width: 150px;
+  height: auto;
+  border-radius: 2px;
+  object-fit: cover;
+}
+#archive-team .team-member.no-photo {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+#archive-team .team-info {
+  flex: 1;
+  min-width: 0;
+}
+/* Two ids (#dm #archive-team) so these beat the builder's own #dm h3 rules,
+   which otherwise render the names large and faded grey. */
+#dm #archive-team .team-name,
+#archive-team .team-name {
+  margin: 0 !important;
+  font-size: 1.3rem !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  line-height: 1.25 !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
+  letter-spacing: normal !important;
+}
+#dm #archive-team .team-role,
+#archive-team .team-role {
+  margin: 2px 0 10px !important;
+  font-style: italic !important;
+  color: #cfcfcf !important;
+  font-size: 1rem !important;
+}
+#archive-team .team-desc {
+  margin: 0 0 10px;
+  color: #ececec;
+  line-height: 1.55;
+}
+#archive-team .team-interests-label {
+  margin: 0 0 4px;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #9fbfa7;
+}
+#archive-team .team-interests {
+  margin: 0;
+  padding-left: 18px;
+  color: #cfcfcf;
+  font-size: 0.95rem;
+  columns: 2;
+}
+@media (max-width: 640px) {
+  #archive-team .team-member {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #archive-team .team-photo {
+    width: 180px;
+  }
+  #archive-team .team-interests {
+    columns: 1;
+    text-align: left;
+  }
+}
+
 /* The site's full-page background photo (a Central-Asian landscape) was never
    captured by the Wayback Machine, so pages fell back to flat black and the
    translucent text panels had nothing to read against. Substitute a captured

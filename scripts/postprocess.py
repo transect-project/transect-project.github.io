@@ -51,21 +51,159 @@ FALLBACK_NAV_ITEMS = [
     ("/", "Home"),
     ("/#Team", "Team"),
     ("/#Publications", "Publications"),
-    ("/news/", "News"),
     ("/#PartnersA", "Partners"),
     ("/#Contact", "Contact"),
-    ("/parcsa/", "PARCSA Methodology"),
+    ("/parsco/", "PARSCO"),
 ]
+NAV_LOGO_HTML = (
+    '<a href="/" class="archive-logo" aria-label="TRANSECT home">'
+    '<img src="/assets/img/transect-logo.png" alt="TRANSECT" /></a>'
+)
 
 
 def build_fallback_nav() -> str:
     links = "".join(f'<a href="{href}">{label}</a>' for href, label in FALLBACK_NAV_ITEMS)
-    return f'<nav id="archive-nav" aria-label="Archived site navigation">{links}</nav>'
+    return (f'<nav id="archive-nav" aria-label="Archived site navigation">'
+            f'{NAV_LOGO_HTML}{links}</nav>')
+
+
+# Project team, rebuilt (the original section's content was lost). Photos live in
+# static/assets/team/<slug>.jpg; slugs match the team/ sub-directories. Ordered
+# group leader -> senior -> postdoc -> PhD researchers -> coordinator.
+TEAM_MEMBERS = [
+    {
+        "name": "Dr. Michael Spies", "role": "Group leader", "slug": "dr-michael-spies",
+        "desc": "Michael is a human geographer with broad experience in "
+                "transdisciplinary human-environmental research. As initiator and "
+                "group leader of TRANSECT, his main research interests are reflected "
+                "in the project design and include social-ecological dynamics of "
+                "farming systems, participatory approaches to natural resource "
+                "management, and transboundary perspectives of agrarian change in "
+                "Central Asia and Pakistan.",
+        "interests": ["Agricultural transformation processes", "Agroforestry",
+                       "Transboundary dimensions of farming systems",
+                       "Central Asia and Pakistan",
+                       "Participatory approaches to natural resource management",
+                       "Theories of human-environmental relations"],
+    },
+    {
+        "name": "Dr Henryk Alff", "role": "Senior researcher", "slug": "dr-henryk-alff",
+        "desc": "Trained in Human Geography and Area Studies (Slavic and Central "
+                "Asian Studies), Henryk draws on eighteen years of experience in "
+                "development and transformation research in different regional "
+                "contexts. Based on long-term fieldwork, his work in the TRANSECT "
+                "project scrutinises the various political, socio-economic and "
+                "ecological transitions in the agricultural sector of south-eastern "
+                "Kazakhstan.",
+        "interests": ["Migration and mobility research",
+                       "Geographical development research",
+                       "Border & boundary studies", "(Post-) area studies",
+                       "Translocality and positionality", "Critical spatial theory",
+                       "Actor-based and ethnographical approaches",
+                       "Qualitative social research"],
+    },
+    {
+        "name": "Dr. Christoph Raab", "role": "Postdoctoral researcher",
+        "slug": "christoph-raab",
+        "desc": "Christoph is a geographer by training with a focus on remote "
+                "sensing and nature conservation. He is especially interested in "
+                "the application of machine learning algorithms to understand "
+                "changes in agricultural land use and grassland ecosystems.",
+        "interests": ["Satellite remote sensing", "Machine learning",
+                       "Change analysis", "Grassland ecosystems",
+                       "Biodiversity and nature conservation"],
+    },
+    {
+        "name": "Aksana Zakirova", "role": "PhD researcher", "slug": "aksana-zakirova",
+        "desc": "Aksana has a grounded knowledge in major development problems in "
+                "the agricultural sector in Central Asia. Her research is on "
+                "agricultural transformations in rural Tajikistan, with a particular "
+                "focus on cotton production. Building up on her past work experience "
+                "in rural Kyrgyzstan and her knowledge of Russian, Aksana is a great "
+                "asset to the research group.",
+        "interests": ["Agricultural transformations", "Community development",
+                       "Value chain analyses of aquaculture production",
+                       "Climate change impact on aquaculture production",
+                       "Central Asia, Tajikistan, Kyrgyz Republic"],
+    },
+    {
+        "name": "Mehwish Zuberi", "role": "PhD researcher", "slug": "mehwish-zuberi",
+        "desc": "Mehwish has a keen interest in sustainability transitions "
+                "underpinned by social equity. Her previous research experiences "
+                "encompass community based natural resource management, "
+                "cross-sectoral natural resource policies, and multi-level "
+                "governance with a regional focus on Europe and South Asia. As part "
+                "of the TRANSECT project, she will conduct in-depth field research "
+                "on agricultural transformations in Punjab, Pakistan.",
+        "interests": ["Forest and environmental policy analysis",
+                       "Socio-ecological sustainability of bioeconomy",
+                       "Agricultural transformations", "South Asia"],
+    },
+    {
+        "name": "Madlen Mählis", "role": "Project coordinator", "slug": None,
+        "desc": "", "interests": [],
+    },
+]
+
+
+def _esc(text: str) -> str:
+    return (text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
+
+
+def build_team_html() -> str:
+    rows = []
+    for m in TEAM_MEMBERS:
+        photo = (f'<img class="team-photo" src="/assets/team/{m["slug"]}.jpg" '
+                 f'alt="{_esc(m["name"])}" loading="lazy" />') if m["slug"] else ""
+        desc = f'<p class="team-desc">{_esc(m["desc"])}</p>' if m["desc"] else ""
+        interests = ""
+        if m["interests"]:
+            items = "".join(f"<li>{_esc(i)}</li>" for i in m["interests"])
+            interests = (f'<p class="team-interests-label">Research interests</p>'
+                         f'<ul class="team-interests">{items}</ul>')
+        rows.append(
+            f'<div class="team-member{"" if m["slug"] else " no-photo"}">{photo}'
+            f'<div class="team-info"><h3 class="team-name">{_esc(m["name"])}</h3>'
+            f'<p class="team-role">{_esc(m["role"])}</p>{desc}{interests}</div></div>'
+        )
+    return f'<div id="archive-team">{"".join(rows)}</div>'
+
+
+def inject_team_section(soup) -> bool:
+    """Insert the rebuilt team member grid into the homepage #Team section."""
+    team = soup.find(id="Team")
+    if not team or soup.find(id="archive-team"):
+        return False
+    target = team.find(class_="dmRespColsWrapper") or team
+    target.append(BeautifulSoup(build_team_html(), "html.parser"))
+    return True
+
+
+def copy_static(dest: str, static_dir: str = "static") -> int:
+    """Overlay the new/served hand-authored files (logo, team photos, downloads,
+    the PARSCO page) from static/ onto the build. Returns files copied."""
+    if not os.path.isdir(static_dir):
+        return 0
+    count = 0
+    for base, _dirs, files in os.walk(static_dir):
+        for f in files:
+            sp = os.path.join(base, f)
+            rel = os.path.relpath(sp, static_dir)
+            dp = os.path.join(dest, rel)
+            os.makedirs(os.path.dirname(dp), exist_ok=True)
+            shutil.copy2(sp, dp)
+            count += 1
+    return count
 
 
 # Directories under the destination that are inputs/tooling, never served output;
-# the post-processing passes must not descend into them (esp. the _snapshot source).
-_EXCLUDE_DIRS = {"_snapshot", ".git", "scripts", "node_modules"}
+# the post-processing passes must not descend into them (esp. the _snapshot source
+# and the static/ overlay, which is copied into place separately).
+_EXCLUDE_DIRS = {"_snapshot", ".git", "scripts", "node_modules", "static"}
+
+# Captured pages to drop from the build (e.g. the News blog, whose item sub-pages
+# were largely never archived).
+_EXCLUDE_PAGES = {"news"}
 
 
 def iter_files(root: str, exts: tuple[str, ...] | None = None) -> list[str]:
@@ -92,6 +230,8 @@ def copy_tree(src: str, dest: str) -> None:
             continue
         for f in files:
             if f in ("_manifest.json", "_assetmap.json"):
+                continue
+            if f in _EXCLUDE_PAGES:  # drop dropped pages (e.g. News)
                 continue
             sp = os.path.join(base, f)
             rel = os.path.relpath(sp, src)
@@ -201,6 +341,8 @@ def inject_html(path: str) -> None:
         # it. The logo/header container is left intact.
         for orig_nav in soup.select("nav.main-navigation"):
             orig_nav.decompose()
+        # Rebuild the lost project-team section on the homepage.
+        inject_team_section(soup)
         # Lazy images -> eager: copy data-src onto src.
         for img in soup.find_all("img"):
             ds = img.get("data-src")
@@ -335,7 +477,10 @@ def sanitize_asset_filenames(dest: str) -> int:
     if not os.path.isdir(assets):
         return 0
     mapping: dict[str, str] = {}  # old served path -> new served path
-    for base, _dirs, files in os.walk(assets):
+    for base, dirs, files in os.walk(assets):
+        # Skip the raw author source drop (assets/content) -- not served, and its
+        # files may be open/locked (docx, large PDFs).
+        dirs[:] = [d for d in dirs if os.path.join(base, d) != os.path.join(assets, "content")]
         used = set(os.listdir(base))
         for f in sorted(files):  # stable order for reproducible builds
             new = _sanitize_basename(f)
@@ -385,6 +530,7 @@ def main() -> int:
     print(f"Loaded {len(asset_map)} asset-map entries -> {len(asset_rules)} rewrite rules.")
 
     copy_tree(args.src, args.dest)
+    static_n = copy_static(args.dest)
 
     text_files = iter_files(args.dest, (".html", ".htm", ".css"))
     # Exclude our own scaffolding files from rewriting.
@@ -407,9 +553,9 @@ def main() -> int:
     remapped = remap_missing_versioned(args.dest)
     renamed = sanitize_asset_filenames(args.dest)
     bg_added = restore_parallax_backgrounds(args.dest)
-    print(f"Post-processed {len(html_files)} HTML files; "
-          f"remapped {remapped} missing versioned CSS/JS refs to captured siblings; "
-          f"sanitized {renamed} asset filenames for GitHub Pages; "
+    print(f"Post-processed {len(html_files)} HTML files; overlaid {static_n} static "
+          f"files; remapped {remapped} missing versioned CSS/JS refs to captured "
+          f"siblings; sanitized {renamed} asset filenames for GitHub Pages; "
           f"restored {bg_added} parallax section backgrounds.")
     if not HAVE_BS4:
         print("NOTE: bs4 not installed -- data-src->src conversion skipped; "
