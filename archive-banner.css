@@ -72,6 +72,18 @@
   display: block;
 }
 
+/* The builder reveals many elements with a scroll-triggered entrance animation
+   (data-anim-*), leaving them opacity:0 until its JS fires. That JS is unreliable
+   in the static archive (e.g. it hid the rebuilt Team column), so force animated
+   elements to their final, visible state. */
+#dm [data-anim-desktop],
+#dm [data-anim-mobile],
+#dm [data-anim] {
+  opacity: 1 !important;
+  transform: none !important;
+  visibility: visible !important;
+}
+
 /* ---- Rebuilt project-team section (mirrors the External Advisors layout) ---- */
 #archive-team {
   max-width: 1000px;

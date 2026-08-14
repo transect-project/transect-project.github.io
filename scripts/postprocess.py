@@ -170,12 +170,21 @@ def build_team_html() -> str:
 
 
 def inject_team_section(soup) -> bool:
-    """Insert the rebuilt team member grid into the homepage #Team section."""
+    """Insert the rebuilt team member grid into the homepage #Team section.
+
+    Appends to the section's block column (not the flex column-wrapper) so the
+    grid centres, and removes the leftover 'Project Coordinator' button (Madlen
+    is included in the grid itself)."""
     team = soup.find(id="Team")
     if not team or soup.find(id="archive-team"):
         return False
-    target = team.find(class_="dmRespColsWrapper") or team
-    target.append(BeautifulSoup(build_team_html(), "html.parser"))
+    for btn in soup.select("a.dmButtonLink, a.dmButton, .dmButtonLink"):
+        if "project coordinator" in btn.get_text(strip=True).lower():
+            (btn.find_parent(class_="dmWidget") or btn).decompose()
+    heading = team.find(["h1", "h2", "h3"])
+    col = (heading.find_parent(class_="dmRespCol") if heading else None) \
+        or team.find(class_="dmRespCol") or team
+    col.append(BeautifulSoup(build_team_html(), "html.parser"))
     return True
 
 
