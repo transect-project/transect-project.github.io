@@ -251,3 +251,29 @@ body {
     --archive-nav-height: 72px;
   }
 }
+
+/* Publications list. The builder's own rule (#dm .dmNewParagraph a) paints links
+   in a mid-blue with no underline, which against this section's dark parallax
+   photo reads as body text rather than as something to click. Restore a plain
+   link affordance, and let long DOI URLs wrap instead of running past the
+   960px column. Two IDs so it outranks the builder rule regardless of order. */
+#dm #Publications a,
+#dm #Publications a:visited {
+  color: #9fd0ff;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  cursor: pointer;
+}
+
+#dm #Publications a:hover,
+#dm #Publications a:focus {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#dm #Publications a:focus-visible {
+  outline: 2px solid #ffd24d;
+  outline-offset: 2px;
+}
